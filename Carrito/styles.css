@@ -1,3 +1,9 @@
 .header {
+    display: block;
+    height: 90px;
+    border: solid 3px;
+    margin: 0px;
+}
+.navegacion {
     display: inline-block;
 }
