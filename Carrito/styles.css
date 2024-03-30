@@ -1,16 +1,15 @@
-.header {
-    display: block;
-    height: 70px;
-    border: solid 1px;
-    margin: 0px;
-    padding: 0px;
-}
 a {
     display: inline-block;
     text-align: center;
-    height: 50px;
+    height: 48px;
     width: 172px;
-    padding-top: 20px;
-    border: solid 1px;
-    margin: 0px;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: white;
+    color: black;
 }
