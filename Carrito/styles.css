@@ -1,9 +1,16 @@
 .header {
     display: block;
-    height: 90px;
-    border: solid 3px;
+    height: 70px;
+    border: solid 1px;
     margin: 0px;
+    padding: 0px;
 }
-.navegacion {
+a {
     display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 172px;
+    padding-top: 20px;
+    border: solid 1px;
+    margin: 0px;
 }
