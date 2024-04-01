@@ -13,3 +13,14 @@ a {
     background-color: white;
     color: black;
 }
+
+.f{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    
+}
+
