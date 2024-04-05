@@ -1,0 +1,27 @@
+.Aritos{
+    width: 300px;
+    margin-left: 55px;
+    margin-right: 19px;
+    float: left;
+}
+
+.Cadena{
+    width: 298px;
+    float: inline-start;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.Collar{
+    width: 300px;
+    float: inline-start;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.Cartera{
+    width: 300px;
+    float: inline-start;
+    margin-left: 19px;
+    margin-right: 19px;
+}
