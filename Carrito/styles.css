@@ -14,6 +14,12 @@
     color: black;
 }
 
+.logo1{
+    height: 150px;
+    width: 172px;
+    align-items: center;
+}
+
 .f{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
