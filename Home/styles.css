@@ -35,3 +35,28 @@
     display: inline-block;
     text-align: center;
 }
+
+
+
+section {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sectioncontainer{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+}
+
+.section-images{
+    height: 300px;
+    width: 300px;
+}
+
+.general-container{
+    display: flex;
+    flex-direction: row;
+}
