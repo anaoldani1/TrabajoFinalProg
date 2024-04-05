@@ -1,0 +1,17 @@
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
