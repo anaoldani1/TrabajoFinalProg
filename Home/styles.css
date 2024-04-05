@@ -1,4 +1,11 @@
-a {
+.logo1 { 
+    display: block;
+    height: 150px;
+    width: 172px;
+    margin: auto;
+}
+
+.logo {
     display: inline-block;
     text-align: center;
     height: 48px;
@@ -12,4 +19,19 @@ a {
     font-size: 13px;
     background-color: white;
     color: black;
+}
+
+.logo1{
+    height: 150px;
+    width: 172px;
+    align-items: center;
+}
+
+.f{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
 }
