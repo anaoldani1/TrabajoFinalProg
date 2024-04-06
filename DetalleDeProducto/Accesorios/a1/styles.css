@@ -29,14 +29,16 @@
 .section-images{
     height: 300px;
     width: 300px;
+    margin: auto;
 }
 .prod {
     display: block;
     height: 450px;
-    width: 500px;
+    width: 320px;
     margin: auto;
-    border: bold 2px;
+    border: bold 3px;
     margin-top: 40px;
+
 }
 .desc {
     display: block;
@@ -44,4 +46,7 @@
     width: 700px;
     margin: auto;
     border: bold 2px; 
+}
+.nombre {
+    align-items: center;
 }
