@@ -1,0 +1,47 @@
+.logo1 { 
+    display: block;
+    height: 150px;
+    width: 172px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    height: 48px;
+    width: 172px;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+}
+
+.logo1{
+    height: 150px;
+    width: 172px;
+    align-items: center;
+}
+.section-images{
+    height: 300px;
+    width: 300px;
+}
+.prod {
+    display: block;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    border: bold 2px;
+    margin-top: 40px;
+}
+.desc {
+    display: block;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    border: bold 2px; 
+}
