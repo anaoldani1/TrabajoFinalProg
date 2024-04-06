@@ -60,3 +60,10 @@ section {
     display: flex;
     flex-direction: row;
 }
+
+.productlist{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    align-items: center;
+    font-style: normal;
+}
