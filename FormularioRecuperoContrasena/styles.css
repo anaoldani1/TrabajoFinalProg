@@ -1,0 +1,11 @@
+.todo {
+    display: block;
+    margin-top: 50px;
+    height: 500px;
+    width: 700px;
+    border: solid 1px black;
+}
+.title {
+    text-align: center;
+    align-items: center;
+}
