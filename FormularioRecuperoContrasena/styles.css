@@ -1,0 +1,44 @@
+header {
+    height: 200px;
+}
+.todo {
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 00px;
+    border: solid 1px black;
+}
+.title {
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.lab {
+    display: block;
+    text-align: center;
+}
+.desc {
+    display: block;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 10px;
+    width: fit-content;
+}
+.but {
+    display: block;
+    align-content: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 10px;
+    width: fit-content;
+}
+.check {
+    display: block;
+    align-content: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 10px;
+    width: fit-content;
+}
