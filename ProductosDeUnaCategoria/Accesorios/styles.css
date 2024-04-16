@@ -1,27 +1,70 @@
-.Aritos{
+.flexbox-container{
+    flex-direction: row;
+}
+
+.flexbox-item1{
     width: 300px;
     margin-left: 55px;
     margin-right: 19px;
     float: left;
+    border-color: black;
+    border-style:solid;
 }
 
-.Cadena{
+.flexbox-item2{
     width: 298px;
     float: inline-start;
     margin-left: 19px;
     margin-right: 19px;
+    border-color: black;
+    border-style:solid;
 }
 
-.Collar{
+.flexbox-item3{
     width: 300px;
     float: inline-start;
     margin-left: 19px;
     margin-right: 19px;
+    border-color: black;
+    border-style:solid;
+
 }
 
-.Cartera{
+.flexbox-item4{
     width: 300px;
     float: inline-start;
     margin-left: 19px;
     margin-right: 19px;
+    border-color: black;
+    border-style:solid;
+}
+
+.bolso1{
+    width: 300px;
+    margin-top: 40px;
+    float: inline-start;
+    margin-left: 19px;
+    margin-right: 19px;
+    border-color: black;
+    border-style:solid;
+}
+
+.bolso2{
+    width: 300px;
+    margin-top: 40px;
+    float: inline-start;
+    margin-left: 19px;
+    margin-right: 19px;
+    border-color: black;
+    border-style:solid;
+}
+
+.bolso3{
+    width: 300px;
+    margin-top: 40px;
+    float: inline-left;
+    margin-left: 19px;
+    margin-right: 19px;
+    border-color: black;
+    border-style:solid;
 }
