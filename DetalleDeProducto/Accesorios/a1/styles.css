@@ -51,8 +51,9 @@
 .desc {
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: 180px;
     width: 700px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
