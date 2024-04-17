@@ -1,6 +1,6 @@
-header {
-    height: 135px;
-}
+
+/*barra de navegacion*/
+
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +25,39 @@ header {
     font-size: 15px;
     background-color: white;    
     color: black;
+}
+
+/*carrito*/
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    padding-top: 10px;
+    
+}
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-images {
+    height: 250px;
+    width: 210px;
+
+}
+
+.text {
+    display:block;
+    height: 100px;
 }
