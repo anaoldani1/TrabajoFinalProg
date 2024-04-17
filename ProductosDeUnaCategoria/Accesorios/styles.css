@@ -1,77 +1,65 @@
-.flexbox-container {
+.flexbox-container1 {
     display: flex;
-    flex-wrap: wrap; 
-}
-
-
-.flexbox-item1{
-    width: 300px;
-    margin-left: 55px;
-    margin-right: 19px;
-    float: left;
-    border-color: black;
-    border-style:solid;
-}
-
-.flexbox-item2{
-    width: 298px;
-    float: inline-start;
-    margin-left: 19px;
-    margin-right: 19px;
-    border-color: black;
-    border-style:solid;
-}
-
-.flexbox-item3{
-    width: 300px;
-    float: inline-start;
-    margin-left: 19px;
-    margin-right: 19px;
-    border-color: black;
-    border-style:solid;
-
-}
-
-.flexbox-item4{
-    width: 300px;
-    float: inline-start;
-    margin-left: 19px;
-    margin-right: 19px;
-    border-color: black;
-    border-style:solid;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .bolso1{
-    width: 300px;
-    margin-top: 40px;
-    float: inline-start;
-    margin-left: 54px;
-    margin-right: 19px;
+    width: 250px;
     border-color: black;
     border-style:solid;
 }
 
 .bolso2{
-    width: 300px;
-    margin-top: 40px;
-    float: inline-start;
-    margin-left: 19px;
-    margin-right: 19px;
+    width: 250px;
     border-color: black;
     border-style:solid;
 }
 
 .bolso3 {
-    width: 300px;
-    margin: 40px 19px ; 
+    width: 250px;
     border-color: black;
     border-style: solid;
 }
 
 .bolso4 {
-    width: 300px;
-    margin-left: 1070px; 
-    margin-top: 5px;
+    width: 250px; 
     border-color: black;
     border-style: solid;
+
+}
+
+.bolso5{
+    width: 250px;
+    border-color: black;
+    border-style:solid;
+}
+
+.logo1 { 
+    display: block;
+    height: 150px;
+    width: 172px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    height: 48px;
+    width: 172px;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+}
+
+.logo1{
+    height: 160px;
+    width: 172px;
+    align-items: center;
 }
