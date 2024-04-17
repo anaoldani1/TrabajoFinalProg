@@ -1,6 +1,8 @@
-.flexbox-container{
-    flex-direction: row;
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap; 
 }
+
 
 .flexbox-item1{
     width: 300px;
@@ -43,7 +45,7 @@
     width: 300px;
     margin-top: 40px;
     float: inline-start;
-    margin-left: 19px;
+    margin-left: 54px;
     margin-right: 19px;
     border-color: black;
     border-style:solid;
@@ -59,12 +61,17 @@
     border-style:solid;
 }
 
-.bolso3{
+.bolso3 {
     width: 300px;
-    margin-top: 40px;
-    float: inline-left;
-    margin-left: 19px;
-    margin-right: 19px;
+    margin: 40px 19px ; 
     border-color: black;
-    border-style:solid;
+    border-style: solid;
+}
+
+.bolso4 {
+    width: 300px;
+    margin-left: 1070px; 
+    margin-top: 5px;
+    border-color: black;
+    border-style: solid;
 }
