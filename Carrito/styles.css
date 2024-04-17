@@ -1,3 +1,6 @@
+header {
+    height: 135px;
+}
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -24,25 +27,6 @@
     color: black;
 }
 
-.logo {
-    display: inline-block;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-}
-
-.f{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-    display: inline-block;
-    text-align: center;
-}
 .carrito {
     display: block;
 }
