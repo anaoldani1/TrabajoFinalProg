@@ -1,40 +1,32 @@
+header {
+    height: 135px;
+}
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+}
 .logo1 { 
-    display: block;
-    height: 150px;
-    width: 172px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
     margin: auto;
 }
-
-.logo {
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 172px;
-    padding-top: 22px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration: none;    
+    font-size: 15px;
+    background-color: white;    
     color: black;
 }
 
-.logo1{
-    height: 160px;
-    width: 172px;
-    align-items: center;
-}
-
-.f{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-    display: inline-block;
-    text-align: center;
-}
 .carrito {
     display: block;
 }

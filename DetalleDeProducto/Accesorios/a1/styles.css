@@ -4,9 +4,15 @@
     width: 172px;
     margin: auto;
 }
-
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+}
 .logo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    flex-wrap: wrap;
     text-align: center;
     height: 48px;
     width: 172px;
