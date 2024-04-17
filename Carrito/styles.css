@@ -1,6 +1,3 @@
-header {
-    height: 135px;
-}
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -28,31 +25,34 @@ header {
 }
 
 .carrito {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    padding-top: 10px;
+    
 }
 .title {
-    margin-top: 30px;
-    margin-left: 30px;
-    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.prod1 {
-    display: block;
-    width: 600px;
-    margin-top: 40px;
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin: auto;
+    margin-bottom: 50px;
 }
+
 .section-images {
     height: 250px;
     width: 210px;
 
 }
-.info {
-    display:inline-block;
-}
-.text {
-    display:inline-block;
-    height: 100px;
-    width: fit-content;
-    margin-left: 20px;
 
+.text {
+    display:block;
+    height: 100px;
 }
