@@ -41,7 +41,7 @@
     padding-top: 10px;
     
 }
-.title {
+.titlecarrito {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -101,4 +101,8 @@
     margin: auto;
     margin-bottom: 60px;
 }
+
+
+/*Recupero Contraseña*/
+
 
