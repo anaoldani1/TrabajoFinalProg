@@ -102,3 +102,67 @@
     margin-bottom: 60px;
 }
 
+
+/*home*/
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo1 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    height: 48px;
+    width: 172px;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration: none;    
+    font-size: 15px;
+    background-color: white;    
+    color: black;
+}
+
+.logo1{
+    height: 150px;
+    width: 172px;
+    align-items: center;
+}
+
+.categorias{
+    border: 2px solid black;
+    margin: 10px;
+    width: 400px;
+    padding: 15px; 
+}
+
+.productoshome{
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; 
+}
