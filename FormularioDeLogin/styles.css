@@ -23,3 +23,30 @@ margin: 200px 600px;
 .olvidaste{
     align-items: center;
 }
+
+
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo1 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
+    margin: auto;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration: none;    
+    font-size: 15px;
+    background-color: white;    
+    color: black;
+}
