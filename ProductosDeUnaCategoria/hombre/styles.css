@@ -1,15 +1,64 @@
-a {
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 172px;
-    padding-top: 22px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
+
+
+.flexbox-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hombre1{
+    width: 202px;
+    border-color: black;
+    border-style:solid;
+}
+
+.hombre2{
+    width: 282px;
+    border-color: black;
+    border-style:solid;
+}
+
+.hombre3 {
+    width: 274px;
+    border-color: black;
+    border-style: solid;
+}
+
+.hombre4 {
+    width: 282px; 
+    border-color: black;
+    border-style: solid;
+
+}
+
+.hombre5{
+    width: 242px;
+    border-color: black;
+    border-style:solid;
+}
+
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo1 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
+    margin: auto;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration: none;    
+    font-size: 15px;
+    background-color: white;    
     color: black;
 }
