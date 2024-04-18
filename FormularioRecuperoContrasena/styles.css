@@ -1,23 +1,26 @@
-header {
+.he {
     height: 200px;
 }
-.todo {
-    display: block;
+.todorc {
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
     height: 300px;
-    width: 00px;
+    width: 500px;
+    padding: 30px;
+    box-sizing: border-box;
     border: solid 1px black;
 }
-.title {
+.titlerc {
     text-align: center;
     align-items: center;
     margin-top: 70px;
 }
-.lab {
+.labrc {
     display: block;
     text-align: center;
 }
-.desc {
+.descrc {
     display: block;
     align-content: center;
     align-items: center;
@@ -26,7 +29,7 @@ header {
     height: 10px;
     width: fit-content;
 }
-.but {
+.butrc {
     display: block;
     align-content: center;
     margin: auto;
@@ -34,7 +37,7 @@ header {
     height: 10px;
     width: fit-content;
 }
-.check {
+.checkrc {
     display: block;
     align-content: center;
     margin: auto;

@@ -41,7 +41,7 @@
     padding-top: 10px;
     
 }
-.title {
+.titlecarrito {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -103,6 +103,7 @@
 }
 
 
+<<<<<<< HEAD
 /*home*/
 .barranav {
     display: flex;
@@ -166,3 +167,8 @@
     flex-wrap: wrap;
     padding: 20px; 
 }
+=======
+/*Recupero Contraseña*/
+
+
+>>>>>>> 0f386940575ff30d9061f0b6fd8b794299b4c221
