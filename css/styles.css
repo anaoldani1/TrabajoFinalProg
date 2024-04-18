@@ -102,13 +102,12 @@
     margin-bottom: 60px;
 }
 
-
-<<<<<<< HEAD
 /*home*/
 .barranav {
     display: flex;
     flex-wrap: wrap;
 }
+
 .logo1 { 
     display: flex;
     flex-wrap: wrap;
@@ -167,8 +166,57 @@
     flex-wrap: wrap;
     padding: 20px; 
 }
-=======
-/*Recupero Contraseña*/
+
+.fotos{
+   height: 300px;
+   width: 300px;
+}
+
+/*registro*/
+
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
->>>>>>> 0f386940575ff30d9061f0b6fd8b794299b4c221
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo1 { 
+    display: block;
+    height: 150px;
+    width: 172px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    height: 48px;
+    width: 172px;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+}
+
+.logo1{
+    height: 150px;
+    width: 172px;
+    align-items: center;
+}
