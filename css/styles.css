@@ -1,6 +1,8 @@
-header {
-    height: 135px;
-}
+
+
+/*barra de navegacion*/
+
+
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -26,3 +28,77 @@ header {
     background-color: white;    
     color: black;
 }
+
+
+/*carrito*/
+
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    padding-top: 10px;
+    
+}
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-images {
+    height: 250px;
+    width: 210px;
+
+}
+
+.text {
+    display:block;
+    height: 100px;
+}
+
+
+/*Detalle de Producto*/
+
+
+.prod {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 750px;
+    flex-direction: column;
+
+}
+.imagenbolso {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+}
+.l {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.info {
+    width: 300px;
+}
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
