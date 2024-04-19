@@ -360,13 +360,13 @@ HEAD
     margin-top: 20px;
     font-size: small;
 }
-<<<<<<< HEAD
 
 
 @media  (max-width: 500px) {
 
     .barranav{
        font-size: 20px;
+       
     }
 
     body {
@@ -375,5 +375,3 @@ HEAD
 
 
 }
-=======
->>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
