@@ -104,6 +104,20 @@
 
 /*home*/
 
+
+.agregar{
+     background-color:grey;
+    color: white;
+    height: 20px;
+
+}
+
+.Ver{
+    background-color:grey;
+    color: white;
+    height: 20px;
+}
+
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +181,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px; 
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .fotos{
