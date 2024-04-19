@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 /*barra de navegacion*/
 
@@ -33,6 +34,8 @@
 }
 
 
+=======
+>>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
 /*carrito*/
 
 
@@ -124,12 +127,15 @@
     background-color: darkgray;
     color: white;
     height: 20px;
+    margin-bottom: 50px;
 }
 
 .Ver{
     background-color: darkgray;
     color: white;
     height: 20px;
+    margin-bottom: 50px;
+
 }
 
 
@@ -138,16 +144,16 @@
     margin: 10px;
     width: 400px;
     padding: 15px; 
+    
 
 }
 
 .productoshome{
-    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     padding: 20px; 
     margin-top: 30px;
-
+    align-content: center;
 }
 
 .fotos{
@@ -155,6 +161,7 @@
    width: 300px;
 }
 
+  
 /*registro*/
 
 .registro{
@@ -217,6 +224,7 @@ body{
 }
 
 
+<<<<<<< HEAD
 
 /*electronico*/
 .flexbox-container1 {
@@ -256,8 +264,9 @@ body{
     border-style:solid;
 }
 
+=======
+>>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
 /*hombre*/
-
 
 .flexbox-container1 {
     display: flex;
@@ -296,6 +305,11 @@ body{
     border-style:solid;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
 
 /*mujer*/
 
@@ -407,5 +421,31 @@ margin: 200px 600px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+<<<<<<< HEAD
     font-size: small;
+=======
+}
+
+
+@media  (max-width: 768px) {
+    h2 {
+       font-size: 24px;
+   }
+
+   h3 {
+       font-size: 20px; 
+   }
+
+    p {
+       font-size: 16px; 
+   }
+
+  .agregar{
+   font-size: 30px;
+  }
+
+  .nav {
+    font-size: 30px;
+  }
+>>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
 }
