@@ -280,6 +280,11 @@ margin: 200px 600px;
     align-items: center;
 }
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
 HEAD
 .barranav {
     display: flex;
@@ -358,4 +363,24 @@ HEAD
     margin-top: 20px;
     font-size: small;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+
+@media  (max-width: 500px) {
+
+    .barranav{
+       font-size: 20px;
+    }
+
+    body {
+      
+    }
+
+
+}
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
+>>>>>>> ac42f72a509ce54dd2f68f2d13c93a102a0c70a5
