@@ -275,8 +275,6 @@ margin: 200px 600px;
     align-items: center;
 }
 
-<<<<<<< HEAD
-
 HEAD
 .barranav {
     display: flex;
@@ -355,31 +353,3 @@ HEAD
     margin-top: 20px;
     font-size: small;
 }
-
-
-@media  (max-width: 500px) {
-
-<<<<<<< HEAD
-=======
-
-    .nav {
-        display: block;
-    }
-
-<<<<<<< HEAD
-}
-=======
-  .agregar{
-   font-size: 30px;
-  }
-
-  .nav {
-    font-size: 30px;
-  }
-<<<<<<< HEAD
-}
-=======
-}
-
->>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
->>>>>>> 8a91a2cc59f49ebc82f5af21be527d6ee4fca8f7
