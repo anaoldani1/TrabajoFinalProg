@@ -114,16 +114,14 @@
 
 /*home*/
 
-
 .agregar{
-     background-color:grey;
+    background-color: darkgray;
     color: white;
     height: 20px;
-
 }
 
 .Ver{
-    background-color:grey;
+    background-color: darkgray;
     color: white;
     height: 20px;
 }
@@ -192,6 +190,7 @@
     flex-wrap: wrap;
     padding: 20px; 
     margin-top: 30px;
+
 }
 
 .fotos{
