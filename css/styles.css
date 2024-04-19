@@ -193,46 +193,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
-.hombre1, .hombre2, .hombre3, .hombre4, .hombre5{
-    width:max-content;
-    margin-left: 20px;
-}
-
-.hombre1{
-    width: 202px;
-    border-color: black;
-    border-style:solid;
-
-    margin-right: 10px;
-}
-
-
-.hombre2{
-    width: 282px;
-    border-color: black;
-    border-style:solid;
-}
-
-.hombre3 {
-    width: 274px;
-    border-color: black;
-    border-style: solid;
-}
-
-.hombre4 {
-    width: 282px; 
-    border-color: black;
-    border-style: solid;
-
-}
-
-.hombre5{
-    width: 242px;
-    border-color: black;
-    border-style:solid;
+.algo {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .hombreh1{
