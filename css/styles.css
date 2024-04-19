@@ -205,6 +205,8 @@ body{
     justify-content: space-between;
 }
 
+
+
 .hombre1{
     width: 202px;
     border-color: black;
@@ -275,8 +277,11 @@ margin: 200px 600px;
     align-items: center;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
 HEAD
 .barranav {
     display: flex;
@@ -355,6 +360,7 @@ HEAD
     margin-top: 20px;
     font-size: small;
 }
+<<<<<<< HEAD
 
 
 @media  (max-width: 500px) {
@@ -369,3 +375,5 @@ HEAD
 
 
 }
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
