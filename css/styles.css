@@ -22,7 +22,7 @@
     box-sizing: border-box;
     justify-content: center;
     padding-top: 15px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-decoration: none;    
     font-size: 15px;
     background-color: white;    
@@ -132,55 +132,6 @@
     height: 20px;
 }
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-
-.logo {
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 172px;
-    padding-top: 22px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-}
-
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
-}
-
-.logo1{
-    height: 150px;
-    width: 172px;
-    align-items: center;
-}
 
 .categorias{
     border: 2px solid black;
@@ -225,35 +176,6 @@ body{
     font-size: 20px;
 }
 
-.logo1 { 
-    display: block;
-    height: 150px;
-    width: 172px;
-    margin: auto;
-}
-
-.logo {
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 172px;
-    padding-top: 22px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-}
-
-.logo1{
-    height: 150px;
-    width: 172px;
-    align-items: center;
-}
-
 
 /*accesorios*/ 
 
@@ -294,31 +216,6 @@ body{
     border-style:solid;
 }
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
-}
 
 
 /*electronico*/
@@ -357,32 +254,6 @@ body{
     width: 243px;
     border-color: black;
     border-style:solid;
-}
-
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
 }
 
 /*hombre*/
@@ -425,31 +296,6 @@ body{
     border-style:solid;
 }
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
-}
 
 /*mujer*/
 
@@ -490,31 +336,6 @@ body{
     border-style:solid;
 }
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
-}
 
 /*formulariol*/
 
@@ -547,32 +368,6 @@ margin: 200px 600px;
 }
 
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    background-color: white;    
-    color: black;
-}
-
 /*Recupero contraseña*/
 
 .he {
@@ -585,14 +380,18 @@ margin: 200px 600px;
     padding: 50px;
     margin: auto;
     height: 300px;
-    width: 500px;
+    width: 600px;
     box-sizing: border-box;
-    border: solid 1px black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color:darkgray;
 }
 .titlerc {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size:large;
 }
 .labrc {
     display: flex;
@@ -600,6 +399,7 @@ margin: 200px 600px;
     justify-content: center;
     margin-top: 10px;
     text-align: center;
+    font-size: medium;
 }
 
 .checkrc {
@@ -607,4 +407,5 @@ margin: 200px 600px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    font-size: small;
 }
