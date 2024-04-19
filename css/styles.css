@@ -295,7 +295,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1024px;
 }
 
 .electro1{
@@ -307,7 +306,7 @@ body{
 .electro2{
     width: 323px;
     border-color: black;
-    border-style:solid;
+    border-style: solid;
 }
 
 .electro3 {
