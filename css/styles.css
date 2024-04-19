@@ -251,6 +251,11 @@ body{
 
 /*login*/
 
+
+.bodylogin{
+    background-color:darkgray;
+}
+
 a {
     display: inline-block;
     text-align: center;
