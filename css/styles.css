@@ -47,7 +47,6 @@
     width: 100%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -58,6 +57,9 @@
     margin: auto;
     margin-bottom: 50px;
     border: solid 1px black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .section-images {
@@ -69,6 +71,9 @@
 .text {
     display:block;
     height: 100px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
@@ -113,17 +118,26 @@
     background-color: darkgray;
     color: white;
     height: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .Ver{
     background-color: darkgray;
     color: white;
     height: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .barranav {
     display: flex;
     flex-wrap: wrap;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .logo1 { 
@@ -163,6 +177,9 @@
     font-size: 15px;
     background-color: white;    
     color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .logo1{
@@ -176,6 +193,9 @@
     margin: 10px;
     width: 400px;
     padding: 15px; 
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
 }
 
@@ -185,7 +205,6 @@
     flex-wrap: wrap;
     padding: 20px; 
     margin-top: 30px;
-
 }
 
 .fotos{
@@ -200,18 +219,25 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 h2{
     text-align: center;
     padding-top: 30px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .logo1 { 
