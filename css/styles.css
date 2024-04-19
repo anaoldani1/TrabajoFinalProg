@@ -129,7 +129,6 @@
     flex-wrap: wrap;
     padding: 20px; 
     margin-top: 30px;
-    align-content: center;
 }
 
 .fotos{
@@ -370,8 +369,6 @@ a {
         width: 200px;
         margin-left: 30px;
         margin-right: 30px;
-        text-align: center;
-        align-content: center;
         justify-content: center;
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
@@ -388,7 +385,6 @@ a {
 
     .categorias{
         font-size: 13px;
-        align-content: center;
     }
 
     .fotos{
