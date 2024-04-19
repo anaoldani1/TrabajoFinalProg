@@ -124,12 +124,15 @@
     background-color: darkgray;
     color: white;
     height: 20px;
+    margin-bottom: 50px;
 }
 
 .Ver{
     background-color: darkgray;
     color: white;
     height: 20px;
+    margin-bottom: 50px;
+
 }
 
 .barranav {
@@ -187,16 +190,15 @@
     margin: 10px;
     width: 400px;
     padding: 15px; 
+    
 
 }
 
 .productoshome{
-    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     padding: 20px; 
     margin-top: 30px;
-
 }
 
 .fotos{
