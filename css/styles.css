@@ -339,8 +339,12 @@ HEAD
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color:darkgray;
 }
+
+.bodyrecover{
+    background-color:darkgray; 
+}
+
 .titlerc {
     display: flex;
     flex-wrap: wrap;
@@ -364,26 +368,41 @@ HEAD
     font-size: small;
 }
 
-=======
-<<<<<<< HEAD
 
 
 @media  (max-width: 500px) {
 
     .barranav{
-       font-size: 20px;
-       
+       font-size: 20px; 
+       width: 200px;
+       margin-left: 30px;
+       margin-right: 30px;
+       text-align: center;
+       align-content: center;
+        justify-content: center;
     }
 
-    body {
-      
+    .productoshome {
+        align-content: center;
+        justify-content: center;  
     }
+
+    .fotos{
+        height: 100px;
+        width: 100px;
+    }
+
+    .Ver{
+        height: 50px;
+        width: 70px;
+    }
+
+    .agregar{
+        height: 50px;
+        width: 70px;
+    }
+
+
 
 
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
->>>>>>> ac42f72a509ce54dd2f68f2d13c93a102a0c70a5
->>>>>>> 15264c8f77c13772721a9f393a1888f160834798
