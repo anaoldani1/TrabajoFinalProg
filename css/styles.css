@@ -194,15 +194,23 @@ body{
 .flexbox-container1 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.hombre1, .hombre2, .hombre3, .hombre4, .hombre5{
+    width:max-content;
+    margin-left: 20px;
 }
 
 .hombre1{
     width: 202px;
     border-color: black;
     border-style:solid;
+
+    margin-right: 10px;
 }
+
 
 .hombre2{
     width: 282px;
