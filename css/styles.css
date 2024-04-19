@@ -2,6 +2,8 @@
 .barranav {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .logo1 { 
@@ -17,6 +19,7 @@
     flex-wrap: wrap;
     list-style: none;
     border: solid 1px black;
+    justify-content: center;
 }
 
 /*carrito*/
@@ -267,6 +270,15 @@ a {
     margin: 50px 650px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
+HEAD
+>>>>>>> ab5556d0fcb51a458020a5582b72dc54dcb1f280
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -347,3 +359,27 @@ a {
     margin-top: 20px;
     font-size: small;
 }
+
+=======
+<<<<<<< HEAD
+
+
+@media  (max-width: 500px) {
+
+    .barranav{
+       font-size: 20px;
+       
+    }
+
+    body {
+      
+    }
+
+
+}
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
+>>>>>>> ac42f72a509ce54dd2f68f2d13c93a102a0c70a5
+>>>>>>> 15264c8f77c13772721a9f393a1888f160834798
