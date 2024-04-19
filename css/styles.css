@@ -269,6 +269,10 @@ a {
     margin: 50px 650px;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 89f775d3302eae13844db007e037cf0784df6990
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -366,11 +370,29 @@ a {
     }
     .barra {
         padding: 20px;
+        font-size: 20px; 
+        width: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
     }
 
     .productoshome {
         align-content: center;
-        justify-content: center;  
+        justify-content: center; 
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal; 
+    }
+
+    .categorias{
+        font-size: 13px;
+        align-content: center;
     }
 
     .fotos{
@@ -379,14 +401,41 @@ a {
     }
 
     .Ver{
-        height: 50px;
-        width: 70px;
+        font-size: 10px;
+        height: 20px;
+        width: 50px;
     }
 
     .agregar{
-        height: 50px;
-        width: 70px;
+        font-size: 10px;
+        height: 20px;
+        width: 100px;
     }
 
+<<<<<<< HEAD
+=======
+    .registro{
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 20px;
+    }
+
+    .logo1{
+        width: 100px;
+        height: 100px;
+    }
+
+    .bodyregister{
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .f{
+        font-size: 15px;
+    }
+>>>>>>> f4ab7527910769ca53cbbc96eeb4cef642d742e8
 }
 
