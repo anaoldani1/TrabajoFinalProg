@@ -270,15 +270,7 @@ a {
     margin: 50px 650px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
-HEAD
->>>>>>> ab5556d0fcb51a458020a5582b72dc54dcb1f280
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -335,13 +327,12 @@ HEAD
     font-style: normal;
 }
 
-<<<<<<< HEAD
+
 .bodyrecover{
     background-color:darkgray; 
 }
 
-=======
->>>>>>> db5f47039bb392673fed6a4973b332208ecd6f7a
+
 .titlerc {
     display: flex;
     flex-wrap: wrap;
@@ -371,18 +362,29 @@ HEAD
 @media  (max-width: 500px) {
 
     .barranav{
-       font-size: 20px; 
-       width: 200px;
-       margin-left: 30px;
-       margin-right: 30px;
-       text-align: center;
-       align-content: center;
+        font-size: 20px; 
+        width: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+        align-content: center;
         justify-content: center;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
     }
 
     .productoshome {
         align-content: center;
-        justify-content: center;  
+        justify-content: center; 
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal; 
+    }
+
+    .categorias{
+        font-size: 13px;
+        align-content: center;
     }
 
     .fotos{
@@ -391,16 +393,37 @@ HEAD
     }
 
     .Ver{
-        height: 50px;
-        width: 70px;
+        font-size: 10px;
+        height: 20px;
+        width: 50px;
     }
 
     .agregar{
-        height: 50px;
-        width: 70px;
+        font-size: 10px;
+        height: 20px;
+        width: 100px;
     }
 
+    .registro{
+        font-size: 15px;
+    }
 
+    .header{
+        font-size: 20px;
+    }
 
+    .logo1{
+        width: 100px;
+        height: 100px;
+    }
 
+    .bodyregister{
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .f{
+        font-size: 15px;
+    }
 }
