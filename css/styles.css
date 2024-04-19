@@ -22,7 +22,6 @@
 }
 
 /*carrito*/
-
 .carrito {
     display: flex;
     flex-wrap: wrap;
@@ -111,15 +110,12 @@
     background-color: darkgray;
     color: white;
     height: 20px;
-    margin-bottom: 50px;
 }
 
 .Ver{
     background-color: darkgray;
     color: white;
     height: 20px;
-    margin-bottom: 50px;
-
 }
 
 
@@ -128,8 +124,6 @@
     margin: 10px;
     width: 400px;
     padding: 15px; 
-    
-
 }
 
 .productoshome{
@@ -153,8 +147,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    background-color:darkgray;
 }
 
+.bodyregister{
+    background-color:darkgray;
+}
 
 h2{
     text-align: center;
@@ -165,9 +163,10 @@ h2{
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    
 }
 
-<<<<<<< HEAD
+
 .logo1 { 
     display: block;
     height: 150px;
@@ -239,6 +238,11 @@ body{
 
 /*login*/
 
+
+.bodylogin{
+    background-color:darkgray;
+}
+
 a {
     display: inline-block;
     text-align: center;
@@ -269,6 +273,38 @@ margin: 200px 600px;
 
 .olvidaste{
     align-items: center;
+}
+
+<<<<<<< HEAD
+
+HEAD
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo1 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
+    margin: auto;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration: none;    
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: white;    
+    color: black;
 }
 
 .textologin{
@@ -317,25 +353,22 @@ margin: 200px 600px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-<<<<<<< HEAD
     font-size: small;
-=======
 }
 
 
-@media  (max-width: 768px) {
-    h2 {
-       font-size: 24px;
-   }
+@media  (max-width: 500px) {
 
-   h3 {
-       font-size: 20px; 
-   }
+<<<<<<< HEAD
+=======
 
-    p {
-       font-size: 16px; 
-   }
+    .nav {
+        display: block;
+    }
 
+<<<<<<< HEAD
+}
+=======
   .agregar{
    font-size: 30px;
   }
@@ -343,5 +376,10 @@ margin: 200px 600px;
   .nav {
     font-size: 30px;
   }
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
+>>>>>>> 8a91a2cc59f49ebc82f5af21be527d6ee4fca8f7
