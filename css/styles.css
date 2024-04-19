@@ -163,6 +163,9 @@
     background-color:darkgray;
 }
 
+.bodyregister{
+    background-color:darkgray;
+}
 
 h2{
     text-align: center;
@@ -173,7 +176,7 @@ h2{
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color:darkgray;
+    
 }
 
 
@@ -312,8 +315,6 @@ HEAD
     color: black;
 }
 
-=======
->>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
 .textologin{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -366,6 +367,8 @@ HEAD
 
 @media  (max-width: 500px) {
 
+<<<<<<< HEAD
+=======
 
     .nav {
         display: block;
@@ -387,3 +390,4 @@ HEAD
 }
 
 >>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
+>>>>>>> 8a91a2cc59f49ebc82f5af21be527d6ee4fca8f7
