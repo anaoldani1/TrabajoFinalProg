@@ -270,7 +270,10 @@ a {
     margin: 50px 650px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 89f775d3302eae13844db007e037cf0784df6990
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -358,7 +361,6 @@ a {
 }
 
 
-
 @media  (max-width: 500px) {
 
     .barranav{
@@ -427,3 +429,4 @@ a {
         font-size: 15px;
     }
 }
+
