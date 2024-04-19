@@ -196,7 +196,25 @@ body{
     justify-content:space-around;
 }
 
-.algo {
+.algo{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.algo2{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.algo3{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.algo4{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -420,6 +438,21 @@ a {
         margin-left: 30%;
         font-size: 50%;
     }
- 
+
+    .algo2{
+        margin-left: 30%;
+    }
+
+    .algo3{
+        margin-left: 10%;
+    }
+
+    .algo4{
+        margin-left: 20%;
+    }
+
+    .flexbox-container1 p{
+        font-size: 80%;
+    }
 }
 
