@@ -6,6 +6,8 @@
 .barranav {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 .logo1 { 
     display: flex;
@@ -19,6 +21,7 @@
     flex-wrap: wrap;
     list-style: none;
     border: solid 1px black;
+    justify-content: center;
 }
 
 /*carrito*/
@@ -353,3 +356,4 @@ HEAD
     margin-top: 20px;
     font-size: small;
 }
+
