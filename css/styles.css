@@ -36,7 +36,6 @@
 
 /*carrito*/
 
-
 .carrito {
     display: flex;
     flex-wrap: wrap;
@@ -208,91 +207,7 @@ body{
     align-items: center;
 }
 
-=======
 
-/*accesorios*/ 
-
-.flexbox-container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.bolso1{
-    width: 250px;
-    border-color: black;
-    border-style:solid;
-}
-
-.bolso2{
-    width: 250px;
-    border-color: black;
-    border-style:solid;
-}
-
-.bolso3 {
-    width: 250px;
-    border-color: black;
-    border-style: solid;
-}
-
-.bolso4 {
-    width: 250px; 
-    border-color: black;
-    border-style: solid;
-
-}
-
-.bolso5{
-    width: 250px;
-    border-color: black;
-    border-style:solid;
-}
-
-
-<<<<<<< HEAD
-
-/*electronico*/
-.flexbox-container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.electro1{
-    width: 186px;
-    border-color: black;
-    border-style:solid;
-}
-
-.electro2{
-    width: 323px;
-    border-color: black;
-    border-style: solid;
-}
-
-.electro3 {
-    width: 242px;
-    border-color: black;
-    border-style: solid;
-}
-
-.electro4 {
-    width: 323px; 
-    border-color: black;
-    border-style: solid;
-
-}
-
-.electro5{
-    width: 243px;
-    border-color: black;
-    border-style:solid;
-}
-
-=======
->>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
->>>>>>> f35e13a52f321c3315c02019355153d63abc4a49
 /*hombre*/
 
 .flexbox-container1 {
@@ -332,56 +247,7 @@ body{
     border-style:solid;
 }
 
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-=======
-
->>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
-
-/*mujer*/
-
-.flexbox-container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.mujer1{
-    width: 235px;
-    border-color: black;
-    border-style:solid;
-}
-
-.mujer2{
-    width: 235px;
-    border-color: black;
-    border-style:solid;
-}
-
-.mujer3 {
-    width: 234px;
-    border-color: black;
-    border-style: solid;
-}
-
-.mujer4 {
-    width: 248px; 
-    border-color: black;
-    border-style: solid;
-
-}
-
-.mujer5{
-    width: 290px;
-    border-color: black;
-    border-style:solid;
-}
-
-
->>>>>>> f35e13a52f321c3315c02019355153d63abc4a49
-/*formulariol*/
+/*login*/
 
 a {
     display: inline-block;
@@ -415,6 +281,7 @@ margin: 200px 600px;
     align-items: center;
 }
 
+<<<<<<< HEAD
 
 HEAD
 .barranav {
@@ -446,6 +313,8 @@ HEAD
     color: black;
 }
 
+=======
+>>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
 .textologin{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -503,4 +372,16 @@ HEAD
         display: block;
     }
 
+<<<<<<< HEAD
 }
+=======
+  .agregar{
+   font-size: 30px;
+  }
+
+  .nav {
+    font-size: 30px;
+  }
+}
+
+>>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
