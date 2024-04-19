@@ -125,15 +125,12 @@
     background-color: darkgray;
     color: white;
     height: 20px;
-    margin-bottom: 50px;
 }
 
 .Ver{
     background-color: darkgray;
     color: white;
     height: 20px;
-    margin-bottom: 50px;
-
 }
 
 
@@ -142,8 +139,6 @@
     margin: 10px;
     width: 400px;
     padding: 15px; 
-    
-
 }
 
 .productoshome{
@@ -167,6 +162,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    background-color:darkgray;
 }
 
 
@@ -179,6 +175,7 @@ h2{
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    background-color:darkgray;
 }
 
 <<<<<<< HEAD
@@ -419,7 +416,7 @@ margin: 200px 600px;
 }
 
 
-<<<<<<< HEAD
+HEAD
 .barranav {
     display: flex;
     flex-wrap: wrap;
@@ -455,8 +452,7 @@ margin: 200px 600px;
     font-style: normal;
 }
 
-=======
->>>>>>> f35e13a52f321c3315c02019355153d63abc4a49
+
 /*Recupero contraseña*/
 
 .he {
@@ -496,31 +492,15 @@ margin: 200px 600px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-<<<<<<< HEAD
     font-size: small;
-=======
 }
 
 
-@media  (max-width: 768px) {
-    h2 {
-       font-size: 24px;
-   }
+@media  (max-width: 500px) {
 
-   h3 {
-       font-size: 20px; 
-   }
 
-    p {
-       font-size: 16px; 
-   }
+    .nav {
+        display: block;
+    }
 
-  .agregar{
-   font-size: 30px;
-  }
-
-  .nav {
-    font-size: 30px;
-  }
->>>>>>> b2d28be0b8b9d8394b1d79456f9e62a4a8b1cbb4
 }
