@@ -1,14 +1,11 @@
-
-
 /*barra de navegacion*/
-
-
 .barranav {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
+
 .logo1 { 
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +13,7 @@
     width: 135px;
     margin: auto;
 }
+
 .barra {
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +31,7 @@
     padding-top: 10px;
     
 }
+
 .titlecarrito {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +57,6 @@
 .section-images {
     height: 250px;
     width: 210px;
-
 }
 
 .text {
@@ -66,10 +64,7 @@
     height: 100px;
 }
 
-
 /*Detalle de Producto*/
-
-
 .prod {
     display: flex;
     margin: auto;
@@ -81,22 +76,25 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-size: large;
-
 }
+
 .imagenbolso {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 300px;
 }
+
 .l {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
 }
+
 .info {
     width: 300px;
 }
+
 .desc {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +106,6 @@
 }
 
 /*home*/
-
 .agregar{
     background-color: darkgray;
     color: white;
@@ -120,7 +117,6 @@
     color: white;
     height: 20px;
 }
-
 
 .categorias{
     border: 2px solid black;
@@ -141,10 +137,8 @@
    height: 300px;
    width: 300px;
 }
-
-  
+ 
 /*registro*/
-
 .registro{
     display: flex;
     justify-content: center;
@@ -162,13 +156,10 @@ h2{
     padding-top: 30px;
 }
 
-
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    
 }
-
 
 .logo1 { 
     display: block;
@@ -199,16 +190,13 @@ body{
     align-items: center;
 }
 
-
 /*hombre*/
-
 .flexbox-container1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
-
 
 .hombre1{
     width: 202px;
@@ -241,9 +229,14 @@ body{
     border-style:solid;
 }
 
+.hombreh1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
 /*login*/
-
-
 .bodylogin{
     background-color:darkgray;
 }
@@ -272,24 +265,25 @@ a {
     align-items: center;
 }
 
-div{
-margin: 200px 600px;
-}
-
 .olvidaste{
     align-items: center;
+    margin: 50px 650px;
 }
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 
 
 =======
 >>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
 HEAD
+>>>>>>> ab5556d0fcb51a458020a5582b72dc54dcb1f280
 .barranav {
     display: flex;
     flex-wrap: wrap;
 }
+
 .logo1 { 
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +291,7 @@ HEAD
     width: 135px;
     margin: auto;
 }
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -321,12 +316,11 @@ HEAD
     font-style: normal;
 }
 
-
 /*Recupero contraseña*/
-
 .he {
     height: 200px;
 }
+
 .todorc {
     display: flex;
     flex-wrap: wrap;
@@ -341,16 +335,20 @@ HEAD
     font-style: normal;
 }
 
+<<<<<<< HEAD
 .bodyrecover{
     background-color:darkgray; 
 }
 
+=======
+>>>>>>> db5f47039bb392673fed6a4973b332208ecd6f7a
 .titlerc {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size:large;
 }
+
 .labrc {
     display: flex;
     flex-wrap: wrap;
