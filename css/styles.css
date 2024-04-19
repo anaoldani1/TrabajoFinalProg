@@ -6,6 +6,8 @@
 .barranav {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 .logo1 { 
     display: flex;
@@ -19,6 +21,7 @@
     flex-wrap: wrap;
     list-style: none;
     border: solid 1px black;
+    justify-content: center;
 }
 
 /*carrito*/
@@ -361,6 +364,9 @@ HEAD
     font-size: small;
 }
 
+=======
+<<<<<<< HEAD
+
 
 @media  (max-width: 500px) {
 
@@ -375,3 +381,9 @@ HEAD
 
 
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 262b4e204353e89031d297168041f44c2ecd01e3
+>>>>>>> ac42f72a509ce54dd2f68f2d13c93a102a0c70a5
+>>>>>>> 15264c8f77c13772721a9f393a1888f160834798
