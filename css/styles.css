@@ -275,7 +275,7 @@ margin: 200px 600px;
     align-items: center;
 }
 
-<<<<<<< HEAD
+
 
 HEAD
 .barranav {
@@ -359,27 +359,13 @@ HEAD
 
 @media  (max-width: 500px) {
 
-<<<<<<< HEAD
-=======
-
-    .nav {
-        display: block;
+    .barranav{
+       font-size: 20px;
     }
 
-<<<<<<< HEAD
-}
-=======
-  .agregar{
-   font-size: 30px;
-  }
+    body {
+      
+    }
 
-  .nav {
-    font-size: 30px;
-  }
-<<<<<<< HEAD
-}
-=======
-}
 
->>>>>>> 6d572ed68959f01bd9999bbf61746979e32109c1
->>>>>>> 8a91a2cc59f49ebc82f5af21be527d6ee4fca8f7
+}
