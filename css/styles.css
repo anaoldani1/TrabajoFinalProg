@@ -212,6 +212,15 @@
    width: 300px;
 }
 
+@media (max-width: 750px) {
+    header{
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 50px;
+    }
+  }
+
 /*registro*/
 
 .registro{
