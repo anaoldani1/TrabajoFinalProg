@@ -290,7 +290,12 @@ a {
 
 .olvidaste{
     align-items: center;
-    margin: 50px 45%;
+    margin: 50px 44%;
+}
+
+.olvidaste a{
+    background-color: transparent;
+    font-weight: bold;
 }
 
 .barranav {
@@ -330,7 +335,15 @@ a {
     font-style: normal;
 }
 
-
+.notengocuenta{
+    width: 15%;
+    height: 0%;
+    margin-left: 0%;
+    align-content: center;
+    padding-top: 0px;
+    background-color: transparent;
+    font-weight: bold;
+}
 
 /*Recupero contraseña*/
 .he {
@@ -462,13 +475,13 @@ a {
         margin: 40%;
     }
 
-    .formulario h2{
-        margin-top: 0%;
-    }
-
     .olvidaste{
         margin-left: 30%;
-        font-size: 50%;
+        font-size: 40%;
+    }
+
+    .olvidaste a{
+        font-size: 12px;
     }
 
     .algo2{
@@ -529,8 +542,11 @@ a {
         border: solid 5px green;
         text-align: center;
     
+
+    .notengocuenta{
+        margin-top: 15%;
+        width: 150%;
+        font-size: 11px;
     }
 }
-
-
 
