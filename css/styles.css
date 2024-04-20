@@ -541,12 +541,10 @@ a {
         margin-bottom: 2%;
         border: solid 5px green;
         text-align: center;
-    
 
-    .notengocuenta{
-        margin-top: 15%;
-        width: 150%;
-        font-size: 11px;
-    }
-}
+        .notengocuenta{
+            margin-top: 15%;
+            width: 150%;
+            font-size: 11px;
+        }}
 
