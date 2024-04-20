@@ -44,10 +44,7 @@ footer {
     box-sizing: border-box;
     width: 100%;
     padding: 5%;
-    padding-top: 2%;
-    background-color: rgb(214, 224, 225);
-
-    
+    padding-top: 2%; 
 }
 
 .titlecarrito {
@@ -85,21 +82,7 @@ footer {
     display:block;
     height: 100px;
 }
-.compcart{
-    display: block;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style:normal;
-    font-size: large;
-    width: 100%;
-    margin: 30%;
-    box-sizing: border-box;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    border: solid 5px green;
-    text-align: center;
 
-}
 /*Detalle de Producto*/
 .prod {
     display: flex;
@@ -112,7 +95,6 @@ footer {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: large;
-    background-color: rgb(214, 224, 225);
 }
 
 .imagenbolso {
@@ -134,7 +116,6 @@ footer {
     width: 15%;
     text-align: center;
     font-size: medium;
-    background-color: rgb(214, 224, 225);
     color: gray;
 }
 
@@ -145,7 +126,6 @@ footer {
     margin: auto;
     margin-bottom: 60px;
     font-size: small;
-    background-color: rgb(214, 224, 225);
     color: gray;
 }
 .agregra{
@@ -538,7 +518,7 @@ a {
         box-sizing: border-box;
         margin-top: 2%;
         margin-bottom: 2%;
-        border: solid 5px green;
+        border: solid 5px;
         text-align: center;
     }
 
