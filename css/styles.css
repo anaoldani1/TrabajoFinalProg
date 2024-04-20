@@ -45,6 +45,8 @@ footer {
     width: 100%;
     padding: 5%;
     padding-top: 2%;
+    background-color: rgb(214, 224, 225);
+
     
 }
 
@@ -333,33 +335,38 @@ a {
     width: 100%;
 }
 .imagenrec {
-    width:120px;
+    width: 17%;
     margin: auto;
+}
+.mainrc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 400px;
 }
 .todorc {
     display: flex;
     flex-wrap: wrap;
-
-    align-content: center;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
     margin: auto;
-    margin-top: 10%;
-    width: 100%;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-size: small;
 
 }
 .titlerc {
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-size: x-large;
 }
 
 .bodyrecover{
-    background-color:darkgray; 
-
+    background-color:darkgray;
 }
 
 
@@ -528,5 +535,30 @@ a {
             margin-top: 15%;
             width: 150%;
             font-size: 11px;
+    }
+
+  
+
+    .imagenbolso {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .l {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .desc {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .imagenrec {
+        width: 25%;
+    }
+    .mainrc {
+        height: 300px;
     }
 }
