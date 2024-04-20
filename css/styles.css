@@ -5,6 +5,9 @@ footer {
     font-style: normal;
     font-size: smaller;
     text-align: center;
+    color: white;
+    background-color: gray;
+
 }
 
 
@@ -30,6 +33,7 @@ footer {
     list-style: none;
     justify-content: center;
     padding: 20px;
+    border-bottom: solid 3px gray;
 }
 
 /*carrito*/
@@ -100,39 +104,62 @@ footer {
     margin: auto;
     flex-wrap: wrap;
     align-items: center;
-    width: 750px;
+    width: 100%;
     flex-direction: column;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: large;
+    background-color: rgb(214, 224, 225);
 }
 
 .imagenbolso {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 300px;
+    width: 100%;
 }
 
 .l {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 30%;
 }
-
 .info {
-    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    width: 15%;
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(214, 224, 225);
+    color: gray;
 }
 
 .desc {
     display: flex;
     flex-wrap: wrap;
-    height: 180px;
-    width: 700px;
+    width: 70%;
     margin: auto;
     margin-bottom: 60px;
+    font-size: small;
+    background-color: rgb(214, 224, 225);
+    color: gray;
+}
+.agregra{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
     font-size: medium;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: white;
+    border: solid 2px;
+    background-color: gray;
+    text-align: center;
 }
 
 /*home*/
@@ -491,21 +518,14 @@ a {
         border: solid 5px green;
         text-align: center;
     }
-<<<<<<< HEAD
 
     .terminos{
         align-content: center;
     }
 
-<<<<<<< HEAD
-}
-=======
-=======
-    
     .notengocuenta{
             margin-top: 15%;
             width: 150%;
             font-size: 11px;
     }
->>>>>>> 6948be729594c76f40ca0b6d8f06ea168d82658f
->>>>>>> d9ad4bce5e744933cd3d1bda2168b7da63954e52
+}
