@@ -190,36 +190,9 @@ body{
     font-size: 20px;
 }
 
-.logo1 { 
-    display: block;
-    height: 150px;
-    width: 172px;
-    margin: auto;
-}
 
-.logo {
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 172px;
-    padding-top: 22px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-}
 
-.logo1{
-    height: 150px;
-    width: 172px;
-    align-items: center;
-}
-
-/*hombre*/
+/*Categoria*/
 .flexbox-container1 {
     display: flex;
     flex-wrap: wrap;
@@ -298,36 +271,6 @@ a {
     font-weight: bold;
 }
 
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 50px;
-    text-decoration: none;    
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: white;    
-    color: black;
-}
 
 .textologin{
     font-family: "Raleway", sans-serif;
@@ -347,52 +290,39 @@ a {
 
 /*Recupero contraseña*/
 .he {
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
-
+.imagenrec {
+    width:120px;
+    margin: auto;
+}
 .todorc {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    padding: 50px;
-    margin: auto;
-    height: 300px;
-    width: 600px;
-    box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
 
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: small;
+
+}
+.titlerc {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+}
 
 .bodyrecover{
     background-color:darkgray; 
 }
 
-
-.titlerc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size:large;
-}
-
-.labrc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-    text-align: center;
-    font-size: medium;
-}
-
-.checkrc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: small;
-}
 
 
 @media  (max-width: 500px) {
@@ -548,5 +478,5 @@ a {
         width: 150%;
         font-size: 11px;
     }
-}
 
+}
