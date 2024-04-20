@@ -544,16 +544,19 @@ a {
         margin-bottom: 2%;
         border: solid 5px green;
         text-align: center;
-    
-
-    .notengocuenta{
-        margin-top: 15%;
-        width: 150%;
-        font-size: 11px;
     }
+<<<<<<< HEAD
 
     .terminos{
         align-content: center;
     }
 }
 
+=======
+    
+    .notengocuenta{
+            margin-top: 15%;
+            width: 150%;
+            font-size: 11px;
+    }
+>>>>>>> 6948be729594c76f40ca0b6d8f06ea168d82658f
