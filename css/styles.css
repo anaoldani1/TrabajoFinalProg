@@ -169,12 +169,23 @@ footer {
  
 /*registro*/
 .registro{
-    display: flex;
-    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     align-items: center;
+    margin-left: 120px;
     margin-top: 0px;
     background-color:darkgray;
+    display: flex;
+    flex-direction: column;
 }
+
+.tengo{
+    justify-content: center;
+    background-color: darkgray;
+    margin-left: 30px;
+}
+
 
 .bodyregister{
     background-color:darkgray;
@@ -335,6 +346,7 @@ a {
        justify-content: center;
        width: 100%;
     }
+    
     .barra {
         padding: 20px;
         font-size: 20px; 
@@ -386,12 +398,18 @@ a {
     .logo1{
         width: 100px;
         height: 100px;
+
     }
 
     .bodyregister{
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
+        margin-right: 100px;
+    }
+
+    .tengo{
+        margin-right: 30px;
     }
 
     .f{
@@ -471,12 +489,22 @@ a {
         margin-bottom: 2%;
         border: solid 5px green;
         text-align: center;
-    
+    }
+<<<<<<< HEAD
 
-    .notengocuenta{
-        margin-top: 15%;
-        width: 150%;
-        font-size: 11px;
+    .terminos{
+        align-content: center;
     }
 
+<<<<<<< HEAD
 }
+=======
+=======
+    
+    .notengocuenta{
+            margin-top: 15%;
+            width: 150%;
+            font-size: 11px;
+    }
+>>>>>>> 6948be729594c76f40ca0b6d8f06ea168d82658f
+>>>>>>> d9ad4bce5e744933cd3d1bda2168b7da63954e52
