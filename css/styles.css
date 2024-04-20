@@ -313,8 +313,8 @@ a {
 .notengocuenta{
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
-    margin-top: 2%;
+    width: 50%;
+
     align-content: center;
     background-color: transparent;
     font-weight: bold;
