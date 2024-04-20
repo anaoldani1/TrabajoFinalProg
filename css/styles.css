@@ -169,12 +169,14 @@ footer {
  
 /*registro*/
 .registro{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 120px;
     margin-top: 0px;
     background-color:darkgray;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .bodyregister{
     background-color:darkgray;
@@ -405,6 +407,7 @@ a {
        justify-content: center;
        width: 100%;
     }
+    
     .barra {
         padding: 20px;
         font-size: 20px; 
@@ -547,6 +550,10 @@ a {
         margin-top: 15%;
         width: 150%;
         font-size: 11px;
+    }
+
+    .terminos{
+        align-content: center;
     }
 }
 
