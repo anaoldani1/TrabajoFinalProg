@@ -439,10 +439,8 @@ a {
     }
 
     .bodyregister{
-        font-family: "Raleway", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        margin-right: 100px;
+       width: 200px;
+
     }
 
 
