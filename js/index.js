@@ -15,13 +15,13 @@ fetch('https://fakestoreapi.com/products/category/electronics')
             <img class="fotos" src="${products.image}">
             <p class="elemento3">${products.description}</p>
             <p class="elemento4">$${products.price}</p>
-            <form action="../cart.html" method="GET">
+            <form action="./cart.html" method="GET">
                 <button type="submit">AGREGAR</button>
             </form>
-            <form action="../producto.html" method="GET">
+            <form action="./producto.html" method="GET">
                 <button type="submit">VER MAS</button>
             </form>
-            `
+            ` 
             categorias.innerHTML += productos;
         }
     })
