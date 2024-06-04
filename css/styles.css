@@ -313,6 +313,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
+    margin-left: 15px;
 }
 
 .olvidaste a{
@@ -455,10 +456,8 @@ a {
     }
 
     .bodyregister{
-        font-family: "Raleway", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        margin-right: 100px;
+       width: 200px;
+
     }
 
 
@@ -479,8 +478,7 @@ a {
     }
 
     .olvidaste{
-        margin:auto;
-
+        margin-left: 23%;
         font-size: 40%;
     }
 
