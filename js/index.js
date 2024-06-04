@@ -11,10 +11,10 @@ fetch('https://fakestoreapi.com/products/category/electronics')
         for (let i = 0; i<6; i++){
             let products = data[i];        
             productos = `
-            <h3 class="elemento2">${products.title}</h3>
+            <h3>${products.title}</h3>
             <img class="fotos" src="${products.image}">
-            <p class="elemento3">${products.description}</p>
-            <p class="elemento4">$${products.price}</p>
+            <p>${products.description}</p>
+            <p>$${products.price}</p>
             <form action="./cart.html" method="GET">
                 <button type="submit">AGREGAR</button>
             </form>
