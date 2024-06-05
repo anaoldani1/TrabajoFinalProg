@@ -17,9 +17,10 @@ fetch('https://fakestoreapi.com/products/category/electronics')
             <img class="fotos" src="${products.image}">
             <p class="elemento1">${products.description}</p>
             <p>$${products.price}</p>
-
+            <section class="botones">
             <a href="./cart.html?id=${products.id}">AGREGAR</a>
             <a href="./producto.html?id=${products.id}">VER MAS</a>
+            </section>
             ` 
             console.log(products.id);   
             categorias.innerHTML += productos;
@@ -46,9 +47,10 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 <img class="fotos" src="${stock.image}">
                 <p class="elemento1">${stock.description}</p>
                 <p>$${stock.price}</p>
+                <section class="botones">
                 <a href="./cart.html?id=${stock.id}">AGREGAR</a>
                 <a href="./producto.html?id=${stock.id}">VER MAS</a>
-
+                </section>
                 `
                 men.innerHTML += prod;
             }

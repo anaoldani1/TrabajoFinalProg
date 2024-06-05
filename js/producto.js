@@ -20,8 +20,8 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
             <p>$${data.price}</p> 
         </article>
         <article class="desc">
-            <p> Descripción: </p>
+            <p> Description: </p>
             <p> ${data.description}</p>
-            <a class="agregra" href="./cart.html" >Agregar al carrito</a>
+            <a class="botones" href="./cart.html?id=${data.id}">AGREGAR</a>
         </article>`
     })
