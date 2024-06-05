@@ -22,6 +22,6 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
         <article class="desc">
             <p> Description: </p>
             <p> ${data.description}</p>
-            <a class="botones" href="./cart.html?id=${data.id}">AGREGAR</a>
+            <a class="botones" href="./cart.html?id=${data.id}">AGREGAR AL CARRITO</a>
         </article>`
     })
