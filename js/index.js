@@ -45,23 +45,12 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 prod=`
                 <h3>${stock.title}</h3>
                 <img class="fotos" src="${stock.image}">
-<<<<<<< HEAD
-                <p class="elemento3">${stock.description}</p>
-                <p class="elemento4">$${stock.price}</p>
-
-                </form>
-                <form action="./producto.html" method="GET">
-                     <button type="submit">AGREGAR AL CARRITO</button>
-                     <button type="submit">VER MÁS</button>
-                </form>
-=======
                 <p class="elemento1">${stock.description}</p>
                 <p>$${stock.price}</p>
                 <section class="botones">
                 <a href="./cart.html?id=${stock.id}">AGREGAR AL CARRITO</a>
                 <a href="./producto.html?id=${stock.id}">VER MAS</a>
                 </section>
->>>>>>> 9414885456cc4a833df0a7b8e171e915a7f9b789
                 `
                 men.innerHTML += prod;
             }
