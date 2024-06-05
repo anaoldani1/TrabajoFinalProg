@@ -52,7 +52,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 </form>
                 <form action="./producto.html" method="GET">
                      <button type="submit">AGREGAR AL CARRITO</button>
-                    <button type="submit">VER MÁS</button>
+                     <button type="submit">VER MÁS</button>
                 </form>
                 `
 
