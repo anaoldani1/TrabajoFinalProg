@@ -3,7 +3,7 @@ let queryStringObj = new URLSearchParams(queryString);
 let productoId = queryStringObj.get('id'); 
 console.log(productoId);
 
-fetch (`https://fakestoreapi.com/products/?id=${productoId}`)
+fetch (`https://fakestoreapi.com/products/${productoId}`)
     .then(function(response){
         return response.json();
     })
@@ -20,8 +20,12 @@ fetch (`https://fakestoreapi.com/products/?id=${productoId}`)
             <p>$${data.price}</p> 
         </article>
         <article class="desc">
-            <p> Descripción: </p>
+            <p> Description: </p>
             <p> ${data.description}</p>
-            <a class="agregra" href="./cart.html" >Agregar al carrito</a>
+            <a class="botones" href="./cart.html?id=${data.id}">AGREGAR AL CARRITO</a>
         </article>`
     })
+    .catch (function(err){
+        console.log(err);
+    })
+

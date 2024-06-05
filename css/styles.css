@@ -1,21 +1,101 @@
 /*home trabajo final*/
+/*ana*/
 .category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid black;
     margin: 10px;
     width: 400px;
     padding: 15px;
     font-family: "Raleway", sans-serif;
-    font-style:normal; 
+    font-style:normal;
+
+}
+.elemento1{
+    font-size: small;
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.productoshome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%; 
+
+}
+.fotos{
+    display: block;
+   height: 300px;
+   width: 300px;
 }
 
+
+/*tati*/
 .catM{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid black;
     margin: 10px;
     width: 400px;
     padding: 15px;
     font-family: "Raleway", sans-serif;
-    font-style:normal; 
+    font-style:normal;
 }
+
+/*detalle de producto trabajo final*/
+.prod {
+    display: flex;
+    margin: auto;
+    margin-top: 7%;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+}
+.imagenbolso {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.l {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    width: 15%;
+    text-align: center;
+    font-size: medium;
+    color: gray;
+}
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+    font-size: small;
+    color: gray;
+}
+
 
 
 /*footer*/
@@ -83,12 +163,12 @@ footer {
     width: 450px;
     margin: auto;
     margin-bottom: 50px;
-    border: solid 1px black;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: medium;
     align-items: center;
+    justify-content: center;
 }
 
 .section-images {
@@ -103,80 +183,8 @@ footer {
     height: 100px;
 }
 
-/*Detalle de Producto*/
-.prod {
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: large;
-}
-
-.imagenbolso {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.l {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-}
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    width: 15%;
-    text-align: center;
-    font-size: medium;
-    color: gray;
-}
-
-.desc {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 60px;
-    font-size: small;
-    color: gray;
-}
-.agregra{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Raleway", sans-serif;
-    font-style:normal;
-    font-size: medium;
-    justify-content: center;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    color: white;
-    border: solid 2px;
-    background-color: gray;
-    text-align: center;
-}
 
 /*home*/
-.agregar{
-    background-color: darkgray;
-    color: white;
-    height: 20px;
-}
-
-.Ver{
-    background-color: darkgray;
-    color: white;
-    height: 20px;
-}
-
 .categorias{
     border: 2px solid black;
     margin: 10px;
@@ -186,17 +194,7 @@ footer {
     font-style:normal; 
 }
 
-.productoshome{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px; 
-    margin-top: 30px;
-}
 
-.fotos{
-   height: 300px;
-   width: 300px;
-}
  
 /*registro*/
 .registro{
