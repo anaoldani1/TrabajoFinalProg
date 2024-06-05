@@ -6,7 +6,13 @@
     padding: 15px;
     font-family: "Raleway", sans-serif;
     font-style:normal; 
+
 }
+.elemento1{
+    font-size: small;
+}
+
+
 
 .catM{
     border: 2px solid black;
@@ -83,12 +89,12 @@ footer {
     width: 450px;
     margin: auto;
     margin-bottom: 50px;
-    border: solid 1px black;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: medium;
     align-items: center;
+    justify-content: center;
 }
 
 .section-images {
@@ -165,18 +171,6 @@ footer {
 }
 
 /*home*/
-.agregar{
-    background-color: darkgray;
-    color: white;
-    height: 20px;
-}
-
-.Ver{
-    background-color: darkgray;
-    color: white;
-    height: 20px;
-}
-
 .categorias{
     border: 2px solid black;
     margin: 10px;

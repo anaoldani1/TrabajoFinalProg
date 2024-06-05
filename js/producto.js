@@ -3,7 +3,7 @@ let queryStringObj = new URLSearchParams(queryString);
 let productoId = queryStringObj.get('id'); 
 console.log(productoId);
 
-fetch (`https://fakestoreapi.com/products/?id=${productoId}`)
+fetch (`https://fakestoreapi.com/products/${productoId}`)
     .then(function(response){
         return response.json();
     })
