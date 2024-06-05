@@ -55,5 +55,8 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 men.innerHTML += prod;
             }
         })
+        .catch (function(err){
+            console.log(err);
+        })
 
   

@@ -25,3 +25,7 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
             <a class="botones" href="./cart.html?id=${data.id}">AGREGAR AL CARRITO</a>
         </article>`
     })
+    .catch (function(err){
+        console.log(err);
+    })
+

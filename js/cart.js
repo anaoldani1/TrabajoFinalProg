@@ -20,5 +20,7 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
             <p>$${data.price}</p>                
         </article>
     `
-
+})
+.catch (function(err){
+    console.log(err);
 })
