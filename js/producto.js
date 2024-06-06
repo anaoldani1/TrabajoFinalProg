@@ -29,3 +29,10 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
         console.log(err);
     })
 
+    let a = document.querySelector("a");
+    a.addEventListener("click", function(e){
+        e.preventDefault()				
+        localStorage.setItem("id", productoId);
+        JSON.parse(localStorage.getItem("id"));
+        console.log(localStorage);
+    });

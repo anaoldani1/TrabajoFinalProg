@@ -11,6 +11,7 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
 })
 .then(function(data){
     console.log(data);
+    localStorage.
     se.innerHTML = `
         <article>
             <img class="section-images" src="${data.image}">                 
