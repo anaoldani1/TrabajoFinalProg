@@ -197,6 +197,10 @@ footer {
 
  
 /*registro*/
+.invalid-feedback-rePassword{
+   color: red;
+}
+
 .registro{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
