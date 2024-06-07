@@ -14,7 +14,9 @@ form.addEventListener('submit',function (evento){
         alert("La contraseña tiene que tener al menos 6 caracteres")
     }else{
         alert ("Felicidades has podidio completar el formulario")
+
+     window.location.href = "index.html"
+    localStorage.setItem('email', campoEmail.value)
     }
 })
 
-sessionStorage.setItem('email', campoEmail.value)

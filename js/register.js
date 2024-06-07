@@ -15,12 +15,17 @@ form.addEventListener('submit',function (evento){
     else if (campoPassword.value.length<6){
         alert("La contraseña tiene que tener al menos 6 caracteres")
     }
-    else if (campoPassword!==campoRepeat){
+    else if (campoPassword.value!==campoRepeat.value){
+        console.log(campoRepeat);
+        console.log(campoPassword);
         errorRe.innerHTML= "<p>Las contraseñas no coinciden</p>"
     }
     else{
         alert ("Felicidades has podidio completar el formulario")
+
+    window.location.href = "login.html"
     }
 })
 
-sessionStorage.setItem('email', campoEmail.value)
+
+
