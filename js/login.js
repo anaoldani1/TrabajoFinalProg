@@ -1,9 +1,10 @@
 let campoEmail= document.querySelector('#email')
 let campoPassword= document.querySelector('#password')
 let form= document.querySelector("#loginForm")
+
+
 form.addEventListener('submit',function (evento){
     evento.preventDefault()
-
     if (campoEmail.value==""){
         alert("Porfavor complete el campo de email")
     }
@@ -16,7 +17,7 @@ form.addEventListener('submit',function (evento){
         alert ("Felicidades has podidio completar el formulario")
         
     localStorage.setItem('email', campoEmail.value)
-    window.location.href = "index.html"
+    this.submit()
 
     }
 })
