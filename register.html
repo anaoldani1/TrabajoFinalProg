@@ -20,23 +20,24 @@
         <h2>Registro</h2>
         <div class="registro">
            
-            <form action="#" method="GET">
+            <form action="" method="GET" id="registerForm">
 
                 <label>Email</label>
-                <input type="email" name="email" id="email" required><br><br>
+                <input type="email" name="email" id="email"><br><br>
 
                 <label>Contraseña:</label>
-                <input type="password" name="password" id="password" required><br><br>
+                <input type="password" name="password" id="password"><br><br>
 
                 <label>Repetir contraseña:</label>
-                <input type="password" name="repeat password" id="password" required><br><br>
+                <input type="password" name="repeat password" id="rePassword"><br><br>
+                <div class="invalid-feedback-rePassword"></div>
 
 
                 <label>
                     <input type="checkbox" name="terminosycondiciones"> Acepto los términos y condiciones </input>
                 </label>   
 
-                <input   type="submit" value="Registrarme">
+                <button class="botonreg" type="submit" id="boton" name="boton"> Registrarme</button>
                 
                 <section class="tengo">
                     <a class= "tengo"  href="./login.html">Ya tengo cuenta</a>

@@ -49,8 +49,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
             <section class="botones">
             <a href="./producto.html?id=${products.id}">VER MAS</a>
             </section>
-            ` 
-            console.log(products.id);   
+            `   
             categorias.innerHTML += productos;
         }
     })

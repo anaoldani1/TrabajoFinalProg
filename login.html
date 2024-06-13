@@ -9,31 +9,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-     <span id="welcomeMessage"></span>
+
 
 </head>
 <body class="bodylogin">
     <header class="he">
         <img class="imagenrec" src="./imgs/Untitled-2.png">
+        <span id="welcomeMessage"></span>
     </header>
     <main class="mainlog">
         <section>
             <article class="formulario">
                 <h2 class="textologin">Login</h2>
-                <form action="#" method="post" id="loginForm">         
+                <form action="./index.html" method="get" id="loginForm">         
                     <label class="textologin" for="username">Email:</label>
-                    <input type="text" name="username" id="username" required><br><br>
+                    <input type="text" name="username" id="email" ><br><br>
+
                     <label class="textologin" for="password">Contraseña:</label>
-                    <input type="password" name="password" id="password" required><br><br>
-                    <input class="botonlogin" type="submit" name="submit" value="Ingresar">
+                    <input type="password" name="password" id="password" ><br><br>
+
+                    <button class="botonlogin" type="submit" id="boton" name="boton"> Ingresar</button>
                 </form>
+
                 <a class="notengocuenta" href="../TrabajoFinalProg/register.html">No tengo cuenta</a>    
-            </article>        
+            </article>      
+
             <article class="olvidaste">
             <a href="../TrabajoFinalProg/recover.html">Recuperar contraseña</a>
             </article>
+
         </section>
     </main>
+    
     <script src="./js/login.js"></script>
 </body>
 </html>
