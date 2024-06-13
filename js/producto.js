@@ -16,23 +16,40 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
         </article>
         <article class="info">
             <h3>${data.title}</h3>
-            <p>${data.category}</p>
+            <a href="./category.html"><p>${data.category}</p></a>
             <p>$${data.price}</p> 
         </article>
         <article class="desc">
             <p> Description: </p>
             <p> ${data.description}</p>
-            <a id="agregocart" class="botones" href="./cart.html?id=${data.id}">AGREGAR AL CARRITO</a>
+            <a id="agregoCart" class="botones" href="./cart.html">AGREGAR AL CARRITO</a>      
         </article>`
+//No sigue el link boton agregar al carrito//
+        
+    let agregarcartboton = document.querySelector("#agregoCart");
+    let datosEnLocal = localStorage.getItem("datosLocalStorage");
+    let ids = {
+        id: productoId,
+    }
+
+    agregarcartboton.addEventListener("click", function(e){
+        e.preventDefault()
+        if(datosEnLocal == null){
+            let array = []
+            array.push(ids)
+            let datosToString = JSON.stringify(array);
+            localStorage.setItem("datosLocalStorage", datosToString);
+        } else {
+            let array = JSON.parse(datosEnLocal);
+            array.push(ids)
+            let datosToString = JSON.stringify(array);
+            localStorage.setItem("datosLocalStorage", datosToString);
+        }
+        console.log(localStorage);
+    });
+
     })
     .catch (function(err){
         console.log(err);
     })
 
-    let agregarcart = document.querySelector("#agregoCart");
-    agregarcart.addEventListener("click", function(e){
-        e.preventDefault()				
-        localStorage.setItem("id", productoId);
-        JSON.parse(localStorage.getItem("id"));
-        console.log(localStorage);
-    });
