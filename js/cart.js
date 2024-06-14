@@ -2,8 +2,6 @@ let se = document.querySelector(".productos")
 let boton = document.querySelector(".desc")
 let comprar = document.querySelector(".agregara")
 
-console.log(comprar);
-
 let datosEnLocal = localStorage.getItem("datosLocalStorage");
 
 let datosparseados = JSON.parse(datosEnLocal)
@@ -39,8 +37,6 @@ if (datosEnLocal == null) {
         localStorage.clear();
        alert("GRACIAS POR SU COMPRA")
     })
-    console.log(comprar);
 }
 
 
-    
