@@ -1,3 +1,41 @@
+/*barra de navegacion*/
+.barranav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo1 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 135px;
+    margin: auto;
+}
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: solid 3px gray;
+}
+
+/*footer*/
+footer {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    background-color: gray;
+
+}
+
+
 /*home trabajo final*/
 /*ana*/
 .category{
@@ -101,45 +139,7 @@
     display: none;
 }
 
-/*footer*/
-footer {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: smaller;
-    text-align: center;
-    color: white;
-    background-color: gray;
-
-}
-
-
-/*barra de navegacion*/
-.barranav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
-.logo1 { 
-    display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    width: 135px;
-    margin: auto;
-}
-
-.barra {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    padding: 20px;
-    border-bottom: solid 3px gray;
-}
-
-/*carrito*/
+/*carrito trabajo final*/
 .carrito {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +173,6 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .section-images {
     display: flex;
     flex-wrap: wrap;
@@ -187,7 +186,7 @@ footer {
 }
 
 
-/*home*/
+/*home viejo*/
 .categorias{
     border: 2px solid black;
     margin: 10px;
@@ -198,7 +197,6 @@ footer {
 }
 
 
- 
 /*registro*/
 .invalid-feedback-rePassword{
    color: red;
@@ -356,7 +354,10 @@ a {
     font-style: normal;
 }
 
-/*Recupero contraseña*/
+/*Recupero contraseña trabajo final */
+.bodyrecover{
+    background-color:darkgray;
+}
 .he {
     display: flex;
     flex-wrap: wrap;
@@ -385,17 +386,7 @@ a {
     font-size: small;
 
 }
-.titlerc {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-size: x-large;
-}
 
-.bodyrecover{
-    background-color:darkgray;
-}
 
 
 
