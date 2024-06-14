@@ -96,7 +96,10 @@
     color: gray;
 }
 
-
+/*recover trabajo final*/
+.errortext{
+    display: none;
+}
 
 /*footer*/
 footer {

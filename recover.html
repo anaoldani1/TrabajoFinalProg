@@ -15,17 +15,20 @@
     </header>
     <main class="mainrc">
         <section class="todorc">
-            <form action=”#” method=”GET”>
-                <h1 class="titlerc">Recuperar Contraseña</h1>
-                <article class="inforc">
-                    <input type="email" name="email" required>
+            <h1>Recuperar Contraseña</h1>
+            <form action=”#” method=”GET” class="formrc">
+                <section>
+                    <input type="email" name="email" id="email">
                     <button type="submit">Recuperar</button>
-                </article>
-                <label>
-                    <input type="checkbox" name="recuperar">Quiero Recuperar Mi Contreaseña</input>
-                </label>                  
+                    <section class="errortext"></section>
+                </section>
+                <section>
+                    <label>Quiero Recuperar Mi Contreaseña</label>
+                    <input type="checkbox" name="recuperar" id="quiero">
+                    <section class="errortext"></section>
+                </section>
             </form>
-        </section>
     </main>
+    <script src="./js/recover.js"></script>
 </body>
 </html>
