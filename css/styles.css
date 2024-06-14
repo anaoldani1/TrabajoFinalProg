@@ -163,7 +163,6 @@ footer {
 .productos {
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
     margin: auto;
     margin-bottom: 50px;
     font-family: "Raleway", sans-serif;
@@ -173,11 +172,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.section-images {
+.prodindividual{
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
-    width: 210px;
+    width: 30%;
+    margin: 2%;
+    align-items: center;
+
+}
+
+.section-images {
+    display: block;
+    width: 70%;
+    
 }
 
 .text {

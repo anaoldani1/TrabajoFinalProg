@@ -24,7 +24,6 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
             <p> ${data.description}</p>
             <a id="agregoCart" class="botones" href="./cart.html">AGREGAR AL CARRITO</a>      
         </article>`
-//No sigue el link boton agregar al carrito//
         
     let agregarcartboton = document.querySelector("#agregoCart");
     let datosEnLocal = localStorage.getItem("datosLocalStorage");
@@ -47,7 +46,7 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
         }
         console.log(localStorage);
     });
-
+    
     })
     .catch (function(err){
         console.log(err);
