@@ -1,6 +1,6 @@
 let bienvenido = document.querySelector ('span')
 
-bienvenido.addEventListener('click')
-
-    document.querySelector("span").innerHTML = " "
+bienvenido.addEventListener('click' , function () {
+     document.querySelector("span").innerHTML = " " ;
+});
 
