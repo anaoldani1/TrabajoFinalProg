@@ -1,8 +1,6 @@
 let bienvenido = document.querySelector ('.logout-link')
 
 bienvenido.addEventListener('click' , function (){
-     alert ("me apretaste")
-
      let nav= document.querySelector('.barra')
      let disappear= document.querySelector ('.none')
      let disappear2= document.querySelector ('.none2')
