@@ -1,16 +1,22 @@
+
 let userEmail = localStorage.getItem('email')
 
-document.getElementById("welcomeMessage").innerText = "Bienvenido: " + userEmail;
+document.querySelector("#welcomeMessage").innerText = "Bienvenido: " + userEmail;
 
-let welcomeMessageElement = document.querySelector('.welcomeMessage');
-        if (userEmail) {
-            welcomeMessageElement.innerHTML = `Bienvenido: ${userEmail} <a href='#' class=logout-link> Logout </a> `;
 
-            document.querySelector('.logout-link').addEventListener('click', function (event) {
-                event.preventDefault();
-                localStorage.removeItem('userEmail')
-                
-            })
-        } 
+    let nav= document.querySelector('.barra')
+    let disappear= document.querySelector ('.none')
+    let disappear2= document.querySelector ('.none2')
 
-        
+    console.log(nav);
+    console.log(disappear);
+    console.log(disappear2);
+
+        if (userEmail==""){
+            disappear.style.display= "block"
+            disappear2.style.display= "block"
+        } else{
+            disappear.style.display= "none"
+            disappear2.style.display= "none"
+            nav.innerHTML+= '<li><a href=`./logout.html` class=logout-link> LOGOUT</li>'
+        }
