@@ -4,3 +4,4 @@ bienvenido.addEventListener('click' , function () {
      document.querySelector("span").innerHTML = " " ;
 });
 
+
