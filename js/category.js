@@ -2,15 +2,24 @@ let catelectro = document.querySelector ('<li> <a href="./category.html">ELECTRÃ
 
 catelectro.addEventListener ('click' , function(){
  fetch('https://fakestoreapi.com/products/category/electronics')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
+            .then(function(response){
+                return response.json ();
+            } )
+            .then(function(data) {
+                console.log(data);
+                let hoodienegro = document.querySelector(".algo2")
+                
+            } )   
+    
+            .catch(function(err) {
+                console.log(err);
+            } )
             
 
 })
 
 
 
-addEventListener 
 
 
 
