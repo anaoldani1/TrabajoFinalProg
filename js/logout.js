@@ -29,5 +29,4 @@ bienvenido.addEventListener('click' , function (){
             
          } 
  
-}) ;
-  
+})
