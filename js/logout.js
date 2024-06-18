@@ -10,9 +10,9 @@ bienvenido.addEventListener('click' , function (){
      
      document.querySelector(".logout-link").innerHTML = (" ")
 
-   
+   document.querySelector("#welcomeMessage").innerHTML =  (" ")
      
-     localStorage.removeItem ('email"');
+     localStorage.removeItem ('email');
 
 
      console.log(nav);
