@@ -18,5 +18,5 @@ document.querySelector("#welcomeMessage").innerText = "Bienvenido: " + userEmail
         } else{
             disappear.style.display= "none"
             disappear2.style.display= "none"
-            nav.innerHTML+= '<li><a href=`#` class=logout-link> LOGOUT</li>'
-        }
+            nav.innerHTML+= '<li><a href= "#" class=logout-link> LOGOUT</li>'
+        } 
