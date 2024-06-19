@@ -1,9 +1,20 @@
-let catelectro = document.querySelector ('<li> <a href="./category.html">ELECTRÓNICA</a></li>')
+let catelectro = document.querySelector ('.electronica')
 
-fetch('https://fakestoreapi.com/products/category/jewelery')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
-            let hoodienegro = document.querySelector(".algo2") ; 
+catelectro.addEventListener ('click' , function (){
+    fetch('https://fakestoreapi.com/products/category/jewelery')
+            .then(function(res) {
+                return res.json ()
+            })
+            .then(function(data) {
+                console.log(data);
+                let title = document.querySelector(".hombreh1")
+                title.innerHTML = `<h1>${data.title} </h1>`
+            })
+            .catch(function(error){
+                console.log(error);
+            })
+})
+
 
 
  
