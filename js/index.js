@@ -58,4 +58,33 @@ fetch('https://fakestoreapi.com/products/category/electronics')
     })
 
 
+    //seccion jewelery///
+
+    let jeweleryhome = document.querySelector(".jeweleryhome"); 
+let jeweleryh = "";
+
+
+fetch('https://fakestoreapi.com/products/category/jewelery')
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(data){
+        console.log(data);
+        for (let i = 0; i<data.length; i++){
+            let jeweleryprod = data[i];   
+            jeweleryh = `
+            <h3>${jeweleryprod.title} </h3>
+            <img class="fotos" src="${jeweleryprod.image}">
+            <p class="elemento1">${jeweleryprod.description} </p>
+            <p> $${jeweleryprod.price} </p>
+            <section class="botones">
+            <a href="./producto.html?id=${jeweleryprod.id}"> VER MAS </a>
+            </section>
+            `   
+            jeweleryhome.innerHTML += jeweleryh;
+        }
+    })
+    .catch (function(err){
+        console.log(err);
+    })
  
