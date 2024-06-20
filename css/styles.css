@@ -8,10 +8,13 @@
 
 .logo1 { 
     display: flex;
-    height: 12%;
-    width: 12%;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 145px;
     margin: auto;
+    margin-left: 650px;
 }
+
 
 .barra {
     display: flex;
@@ -22,9 +25,6 @@
     border-bottom: solid 3px gray;
 }
 
-#welcomeMessage{
-    height: fit-content;
-}
 /*footer*/
 footer {
     font-family: "Raleway", sans-serif;
@@ -208,6 +208,18 @@ footer {
     height: 100px;
 }
 
+
+/*home viejo*/
+.categorias{
+    border: 2px solid black;
+    margin: 10px;
+    width: 400px;
+    padding: 15px;
+    font-family: "Raleway", sans-serif;
+    font-style:normal; 
+}
+
+
 /*registro*/
 .invalid-feedback-rePassword{
    color: red;
@@ -238,7 +250,7 @@ footer {
     font-style:normal; 
 }
 
-.hdos{
+h2{
     text-align: center;
     padding-top: 30px;
 }
@@ -247,6 +259,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 
 
 /*Categoria*/
@@ -439,13 +452,29 @@ a {
         width: 100px;
     }
 
+    .Ver{
+        font-size: 10px;
+        height: 20px;
+        width: 50px;
+    }
+
+    .agregar{
+        font-size: 10px;
+        height: 20px;
+        width: 100px;
+    }
+
     .registro{
         font-size: 15px;
     }
 
+    .header{
+        font-size: 20px;
+    }
+
     .logo1{
-        width: 30%;
-        height: 30%;
+        width: 100px;
+        height: 100px;
 
     }
 
@@ -453,6 +482,7 @@ a {
        width: 200px;
 
     }
+
 
     .tengo{
         margin-right: 30px;
@@ -527,12 +557,28 @@ a {
         flex-wrap: wrap;
         padding: 10px;
     }
+    .compcart{
+        display: block;
+        width: 100%;
+        margin: 10%;
+        box-sizing: border-box;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border: solid 5px;
+        text-align: center;
+    }
+
+    .terminos{
+        align-content: center;
+    }
 
     .notengocuenta{
             margin-top: 15%;
             width: 150%;
             font-size: 11px;
     }
+
+  
 
     .imagenbolso {
         display: flex;
