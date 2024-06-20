@@ -5,8 +5,6 @@ let comprar = document.querySelector(".agregara")
 let datosEnLocal = localStorage.getItem("datosLocalStorage");
 
 let datosparseados = JSON.parse(datosEnLocal)
-console.log(datosparseados);
-console.log(datosEnLocal);
 if (datosEnLocal == null) {
     se.innerHTML = "<h2>Su Carrito está Vacío</h2>"
     boton.style.display = "none";
@@ -20,9 +18,7 @@ if (datosEnLocal == null) {
              console.log(data);
              se.innerHTML += `
              <section class="prodindividual">
-                <article>
-                    <img class="section-images" src="${data.image}">                 
-                </article>
+                <img class="section-images" src="${data.image}">                 
                 <article class="text">
                     <h3>${data.title}</h3>
                     <p>$${data.price}</p>                
