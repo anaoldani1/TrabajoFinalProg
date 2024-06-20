@@ -108,7 +108,7 @@ footer {
 .prod {
     display: flex;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 5%;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
@@ -121,12 +121,13 @@ footer {
 .imagenbolso {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
 }
 
 .l {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 30%;
 }
 .info {
@@ -134,10 +135,15 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    width: 15%;
+    width:fit-content;
+    justify-content: center;
     text-align: center;
     font-size: medium;
     color: gray;
+
+}
+.categoriadelproducto{
+    margin: auto;
 }
 
 .desc {

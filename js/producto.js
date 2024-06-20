@@ -16,7 +16,7 @@ fetch (`https://fakestoreapi.com/products/${productoId}`)
         </article>
         <article class="info">
             <h3>${data.title}</h3>
-            <a href="./category.html"><p>${data.category}</p></a>
+            <a class="categoriadelproducto" href="./category.html"><p>${data.category}</p></a>
             <p>$${data.price}</p> 
         </article>
         <article class="desc">
