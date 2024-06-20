@@ -12,11 +12,11 @@ document.querySelector("#welcomeMessage").innerText = "Bienvenido: " + userEmail
     console.log(disappear);
     console.log(disappear2);
     console.log(userEmail);
-        if (userEmail==""){
+    if (userEmail== ""){
             disappear.style.display= "block"
             disappear2.style.display= "block"
-        } else{
-            disappear.style.display= "none"
-            disappear2.style.display= "none"
-            nav.innerHTML+= '<li><a href= "#" class=logout-link> LOGOUT</li>'
-        } 
+    } else{            
+        disappear.style.display= "none"
+        disappear2.style.display= "none"        
+        nav.innerHTML+= '<li><a href= "#" class=logout-link> LOGOUT</li>'
+    } 
