@@ -7,12 +7,10 @@ bienvenido.addEventListener('click' , function (){
      let welcomemsj = document.querySelector ('.welcomeMessage')
 
 
+document.querySelector(".logout-link").innerHTML = (" ")
+document.querySelector("#welcomeMessage").innerHTML =  (" ")
      
-     document.querySelector(".logout-link").innerHTML = (" ")
-
-   document.querySelector("#welcomeMessage").innerHTML =  (" ")
-     
-     localStorage.removeItem ('email');
+     localStorage.removeItem('email');
 
 
      console.log(nav);
