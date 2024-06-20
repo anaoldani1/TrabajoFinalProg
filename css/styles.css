@@ -278,39 +278,18 @@ body{
 .flexbox-container1 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: row;
     justify-content:space-around;
+    align-items: center;
+    width: 30%;
+
 }
 
-.algo{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
 
 .algo2{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.algo3{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.algo4{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.hombreh1{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
+    font-style: normal;    
 }
 
 /*login*/
