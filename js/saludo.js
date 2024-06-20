@@ -12,13 +12,6 @@ let userEmail = localStorage.getItem('email')
     if (userEmail== ""){
             disappear.style.display= "block"
             disappear2.style.display= "block"
-<<<<<<< HEAD
-    } else{            
-        disappear.style.display= "none"
-        disappear2.style.display= "none"        
-        nav.innerHTML+= '<li><a href= "#" class=logout-link> LOGOUT</li>'
-    } 
-=======
         } 
         else if (userEmail==null){
             disappear.style.display= "block"
@@ -30,4 +23,3 @@ let userEmail = localStorage.getItem('email')
             disappear2.style.display= "none"
             nav.innerHTML+= '<li><a href= "#" class=logout-link> LOGOUT</li>'
         } 
->>>>>>> 8ecc0f78663af57b177e54c1d20fe42fcd6bbde7
