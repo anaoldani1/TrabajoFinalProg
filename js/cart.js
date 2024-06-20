@@ -34,7 +34,7 @@ if (datosEnLocal == null) {
          })
     }
     comprar.addEventListener("click", function(){
-        localStorage.clear();
+        localStorage.removeItem("datosLocalStorage");
         alert("GRACIAS POR SU COMPRA")
     })
 }
