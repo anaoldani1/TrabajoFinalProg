@@ -17,6 +17,7 @@ form.addEventListener("submit", function(e){
         form.style.display = "none";
         todorc.innerHTML = "<h2>Recibirás un email con las instrucciones para recuperar tu contraseña</h2> <a href='./login.html'>Ir al Login</a>"
         error.style.display = "block";
+        form.submit()
     } 
 })
 

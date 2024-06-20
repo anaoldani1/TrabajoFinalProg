@@ -58,7 +58,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
     })
 
 
-    //seccion jewelery///
+//seccion jewelery//
 
     let jeweleryhome = document.querySelector(".jeweleryhome"); 
 let jeweleryh = "";
