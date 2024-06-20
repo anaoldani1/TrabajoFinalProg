@@ -20,7 +20,7 @@ document.querySelector("#welcomeMessage").innerHTML =  (" ")
          if (userEmail==""){
              appear.style.display= "none"
              appear2.style.display= "none"
-             welcomemsj.style.display= "block"
+             welcomemsj.style.display= "none"
          } else{
              appear.style.display= "block"
              appear2.style.display= "block"
