@@ -9,7 +9,7 @@ let userEmail = localStorage.getItem('email')
     console.log(disappear);
     console.log(disappear2);
     console.log(userEmail);
-        if (userEmail==""){
+    if (userEmail== ""){
             disappear.style.display= "block"
             disappear2.style.display= "block"
         } 

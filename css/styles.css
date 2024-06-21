@@ -9,10 +9,16 @@
 .logo1 { 
     display: flex;
     flex-wrap: wrap;
-    height: 130px;
-    width: 145px;
+    height: 140px;
+    width: 155px;
     margin: auto;
-    margin-left: 650px;
+    align-items: center;
+    margin-left: 40%;
+}
+
+#welcomeMessage{
+    margin-top: 60px;
+    margin-right: 15%;
 }
 
 
@@ -121,7 +127,7 @@ footer {
 .imagenbolso {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 55%;
 }
 
 .l {
@@ -165,18 +171,15 @@ footer {
 .carrito {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 5%;
-    padding-top: 2%; 
+    
 }
 
 .titlecarrito {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 3%;
+    width: fit-content;
+    margin-bottom: 1%;
+    margin: auto;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -185,35 +188,29 @@ footer {
 .productos {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 2%;
+    justify-content: center;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: medium;
-    align-items: center;
-    justify-content: center;
 }
 .prodindividual{
     display: flex;
     flex-wrap: wrap;
     width: 30%;
     margin: 2%;
-    align-items: center;
-
+    justify-content: center;
+    align-content: center;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: medium;
 }
 
 .section-images {
-    display: block;
-    width: 70%;
-    
+    width: 40%;   
 }
-
-.text {
-    display:block;
-    height: 100px;
-}
-
 
 /*home viejo*/
 .categorias{
