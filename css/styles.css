@@ -276,6 +276,7 @@ body{
     justify-content:space-around;
     align-items: center;
     width: 30%;
+    border-color: black;
 
 }
 
@@ -284,6 +285,15 @@ body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%;
+    border-color: black;
+    height: 50%;
+    padding-top: 50px;
+    padding-right: ;
 }
 
 /*login*/

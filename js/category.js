@@ -13,7 +13,6 @@
                     let stockcat = data [i] ;
                     prodcat =  `
                                     <div class="algo2">
-                                        <h1> ${stockcat.category} </h1>
                                         <h3> ${stockcat.title} </h3>
                                         <img class="fotos" src="${stockcat.image} ">
                                         <p> ${stockcat.description}</p>
