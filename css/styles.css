@@ -13,7 +13,7 @@
     width: 155px;
     margin: auto;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 
 #welcomeMessage{
@@ -165,6 +165,14 @@ footer {
 /*recover trabajo final*/
 .errortext{
     display: none;
+}
+
+/*registro trabajo final*/
+.imagenreg{
+    width: 17%;
+    margin: auto;
+    align-items: center;
+    margin-left: 40%;
 }
 
 /*carrito trabajo final*/
@@ -369,6 +377,14 @@ a {
     font-style: normal;
 }
 
+.imagenlo{
+    width: 17%;
+    margin: auto;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+
 /*Recupero contraseña trabajo final */
 .bodyrecover{
     background-color:darkgray;
@@ -381,6 +397,9 @@ a {
 .imagenrec {
     width: 17%;
     margin: auto;
+    align-items: center;
+    margin: auto;
+    
 }
 .mainrc {
     display: flex;
