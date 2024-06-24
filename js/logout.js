@@ -26,5 +26,4 @@ document.querySelector("#welcomeMessage").innerHTML =  (" ")
              appear2.style.display= "block"
             
          } 
- 
 })
