@@ -28,3 +28,10 @@
             console.log(err);
  })
 
+
+
+ //querystrings
+
+ console.log(location.search);
+ let queryString = location.search
+ let querystringProd = new URLSearchParams(queryString)

@@ -60,8 +60,8 @@ fetch('https://fakestoreapi.com/products/category/electronics')
 
 //seccion jewelery//
 
-    let jeweleryhome = document.querySelector(".jeweleryhome"); 
-let jeweleryh = "";
+    let jeweleryHome = document.querySelector(".jeweleryhome"); 
+let jeweleryH = "";
 
 
 fetch('https://fakestoreapi.com/products/category/jewelery')
@@ -71,20 +71,21 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
     .then(function(data){
         console.log(data);
         for (let i = 0; i<data.length; i++){
-            let jeweleryprod = data[i];   
-            jeweleryh = `
-            <h3>${jeweleryprod.title} </h3>
-            <img class="fotos" src="${jeweleryprod.image}">
-            <p class="elemento1">${jeweleryprod.description} </p>
-            <p> $${jeweleryprod.price} </p>
+            let jeweleryProd = data[i];   
+            jeweleryH = `
+            <h3>${jeweleryProd.title} </h3>
+            <img class="fotos" src="${jeweleryProd.image}">
+            <p class="elemento1">${jeweleryProd.description} </p>
+            <p> $${jeweleryProd.price} </p>
             <section class="botones">
-            <a href="./producto.html?id=${jeweleryprod.id}"> VER MAS </a>
+            <a href="./producto.html?id=${jeweleryProd.id}"> VER MAS </a>
             </section>
             `   
-            jeweleryhome.innerHTML += jeweleryh;
+            jeweleryHome.innerHTML += jeweleryH;
         }
     })
     .catch (function(err){
         console.log(err);
     })
  
+
