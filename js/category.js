@@ -3,15 +3,16 @@
 
  let queryStringcat = location.search
 
- let querystringcategory= new URLSearchParams(queryStringcat)
+ let queryStringcategory= new URLSearchParams(queryStringcat)
 
- let categoryid = querystringcategory.get("category")
+ let categoryid = queryStringcategory.get("category")
 
  console.log(categoryid);
 
 
- let seccioncat = document.querySelector(".seccioncategoria")
- console.log(seccioncat);
+
+ let sc = document.querySelector(".seccioncategoria")
+ console.log(sc);
  let productscategorias = " " ;
 
  fetch(`https://fakestoreapi.com/products/category/${categoryid}`) 
@@ -26,19 +27,19 @@
             let productoscategoria = data[i]; 
 
             productscategorias += 
-                    `<section class= "algo2" >
+                    `<section class= "categoriabloque" >
                             <h3>${productoscategoria.title}</h3>
-                            <img class="fotos" src="${productoscategoria.image}">
-                            <p>${productoscategoria.description}</p>
-                            <p>$${productoscategoria.price}</p>
-                            </section>
-                            <section class="botones">
+                            <img class="fotoscat" src="${productoscategoria.image}">
+                            <p class = "catdescripcion">${productoscategoria.description}</p>
+                            <p class = "preciocategoria" >$${productoscategoria.price}</p>
+                        <section class="botones3">
                             <a href="./producto.html?id=${productoscategoria.id}">VER MAS</a>
+                        </section>
                     </section>
                         `
           
         }
-        seccioncat.innerHTML = productscategorias
+        sc.innerHTML = productscategorias
     }) 
 
 
