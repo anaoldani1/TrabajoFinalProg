@@ -1,16 +1,20 @@
 
  console.log(location.search);
 
- let queryString = location.search
+ let queryStringcat = location.search
 
- let querystringObj= new URLSearchParams(queryString)
+ let querystringcategory= new URLSearchParams(queryStringcat)
 
- let categoryid = querystringObj.get("id")
+ let categoryid = querystringcategory.get("category")
 
  console.log(categoryid);
 
- fetch(`https://fakestoreapi.com/products/category/
- ${category}`) 
+
+ let seccioncat = document.querySelector(".seccioncategoria")
+ console.log(seccioncat);
+ let productscategorias = " " ;
+
+ fetch(`https://fakestoreapi.com/products/category/${categoryid}`) 
 
     .then(function(res){
         return res.json ()
@@ -18,15 +22,25 @@
 
     .then (function(data){
         console.log(data);
-        let seccioncat = document.querySelector(".seccioncategoria")
+        for (let i = 0; i<data.length; i++) {
+            let productoscategoria = data[i]; 
 
-        seccioncat.innerHTML = `
-                        <h2> ${data.title} </h2>
-                        <img src = ${data.image} > 
-                        <p> ${data.description} </p>
-                        <p> ${data.price} </p>
-        `
-    })
+            productscategorias += 
+                    `<section class= "algo2" >
+                            <h3>${productoscategoria.title}</h3>
+                            <img class="fotos" src="${productoscategoria.image}">
+                            <p>${productoscategoria.description}</p>
+                            <p>$${productoscategoria.price}</p>
+                            </section>
+                            <section class="botones">
+                            <a href="./producto.html?id=${productoscategoria.id}">VER MAS</a>
+                    </section>
+                        `
+          
+        }
+        seccioncat.innerHTML = productscategorias
+    }) 
+
 
     .catch(function(err){
         console.log(err);
